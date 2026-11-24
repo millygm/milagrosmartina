@@ -418,6 +418,7 @@ body.frame .tbar,body.phone .tbar{}
  .dn{translate:0 -160px}
 }
 html:not(.scd) .sw2 .sel{visibility:hidden}
+html.ctOpen,html.ctOpen body{background:#fbfaf8!important}
 </style>
 </head>
 <body data-g="d">
@@ -941,5 +942,7 @@ addEventListener('scroll',u,{passive:true});addEventListener('resize',u);u();
 document.querySelector('.tbar [data-top]').addEventListener('click',e=>{e.preventDefault();scrollTo({top:0,behavior:'smooth'})});})();
 </script>
 
+<script>/* fondo de la página: oscuro arriba (portada), claro al final (nunca una franja negra abajo) */
+(function(){var r=document.documentElement,b=document.body,v=document.getElementById('vp'),c='';function f(){var n=scrollY>v.offsetHeight*.5?'#fbfaf8':'#0b0b0a';if(n!==c){c=n;r.style.background=n;b.style.background=n}}addEventListener('scroll',f,{passive:true});f();})();</script>
 </body>
 </html>
