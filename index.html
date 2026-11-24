@@ -411,6 +411,8 @@ body.frame .tbar,body.phone .tbar{}
  .dn{font-size:min(calc(2.1cqw + 3.5pt),15.5px)!important}
  .gD .ctx{font-size:min(1.72cqw,9px)}
 }
+/* 24 nov: en celular la portada siempre llena toda la pantalla */
+.vp{height:100vh;height:100dvh}
 </style>
 </head>
 <body data-g="d">
@@ -933,5 +935,7 @@ function u(){R.classList.toggle('bar',scrollY>=vp.offsetHeight*.9)}
 addEventListener('scroll',u,{passive:true});addEventListener('resize',u);u();
 document.querySelector('.tbar [data-top]').addEventListener('click',e=>{e.preventDefault();scrollTo({top:0,behavior:'smooth'})});})();
 </script>
+<script>/* portada a pantalla completa en navegadores de apps (WhatsApp, Instagram) */
+(function(){var v=document.getElementById('vp');function f(){var h=window.innerHeight;if(v&&v.getBoundingClientRect().height<h-1)v.style.height=h+'px'}f();setTimeout(f,300);setTimeout(f,1200);})();</script>
 </body>
 </html>
