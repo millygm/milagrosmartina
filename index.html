@@ -1,0 +1,940 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no,email=no,address=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Creative Lab _ Milagros + Martina</title>
+<meta name="description" content="Milagros Gómez Paz & Martina Freytes — independent designers working together as a creative lab for set design, concept development, creative construction and production.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Milagros Martina — Creative Lab">
+<meta property="og:description" content="Set design, concept development, creative construction and production. Buenos Aires · Milano.">
+<meta property="og:image" content="https://millygm.github.io/milagrosmartina/preview.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://millygm.github.io/milagrosmartina/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://millygm.github.io/milagrosmartina/preview.jpg">
+<style>
+@font-face{font-family:"Neue Montreal";src:url("fonts/NeueMontreal-Regular.otf") format("opentype");font-display:swap}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#0b0b0a;overflow:hidden}
+body{font-family:"Neue Montreal","Helvetica Neue",Arial,sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+html,body,a,button{cursor:none}
+@media (hover:none){html,body,a,button{cursor:auto}}
+
+/* viewport: full window, or a phone frame when previewing vertical on desktop */
+.vp{position:fixed;inset:0;overflow:hidden;container-type:size;background:#0b0b0a}
+body.phone{background:#1a1a19}
+.phones{display:none;position:fixed;inset:60px 0 20px;justify-content:center;align-items:center;gap:2.5vw}
+body.phone .vp{display:none}body.phone .phones{display:flex}
+body.phone .sw button[data-g]{display:none}body.phone .sw i{display:none}
+.ph{display:flex;flex-direction:column;align-items:center;gap:10px;height:100%}
+.ph span{font:11px/1 -apple-system,Helvetica,sans-serif;color:#999;letter-spacing:.05em}
+.ph iframe{border:0;height:auto;width:min(21vw,calc((100vh - 110px)*390/844));aspect-ratio:390/844;border-radius:26px;box-shadow:0 0 0 1px #333,0 30px 80px rgba(0,0,0,.6);background:#000}
+body.frame .sw,body.frame .cur{display:none}body.frame,body.frame a{cursor:auto}
+
+.stage{position:absolute;inset:0}
+.stage img{pointer-events:none;-webkit-touch-callout:none;-webkit-user-drag:none;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0}
+.stage img.on{opacity:1}
+
+.g{display:none;position:absolute;inset:0;pointer-events:none}
+.g a{pointer-events:auto}
+body[data-g="a"] .gA,body[data-g="a1"] .gA1,body[data-g="a2"] .gA2,body[data-g="a3"] .gA3,body[data-g="b"] .gB,body[data-g="c"] .gC,body[data-g="d"] .gD{display:block}
+
+/* labels */
+.l{position:absolute;text-transform:uppercase;white-space:nowrap;color:#fff;text-decoration:none;line-height:1.35;letter-spacing:.07em;font-size:max(9px,.73cqw)}
+a.l:hover{opacity:.5}
+.l.big{font-size:max(11px,1.05cqw);letter-spacing:.05em;-webkit-text-stroke:.03em #fff}
+.l.mid{font-size:max(10px,.87cqw);letter-spacing:.06em}
+.l.c{transform:translateX(-50%);text-align:center}
+.l.r{transform:translateX(-100%);text-align:right}
+.l.vc{margin-top:-.68em}
+.dot{position:absolute;width:max(4px,.333cqw);height:max(4px,.333cqw);border-radius:50%;background:#fff;transform:translate(-50%,-50%)}
+.hd .ct{pointer-events:auto}.hd .col a{pointer-events:auto;position:relative}
+.hd .ct::before,.hd .col a::before{content:'';position:absolute;top:.62em;width:max(5px,.38cqw);height:max(5px,.38cqw);border-radius:50%;background:#fff;opacity:0;transform:translate(-50%,-50%) scale(.3);transition:opacity .25s,transform .25s}
+.hd .ct::before{left:-.9em}.hd .col a::before{left:auto;right:-1.25em}
+.hd .ct:hover::before,.hd .col a:hover::before{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.pd{padding-left:1.2em}.pd::before{content:'';position:absolute;left:0;top:.68em;width:max(5px,.38cqw);height:max(5px,.38cqw);border-radius:50%;background:#fff;transform:translateY(-50%)}
+@container (aspect-ratio < 1){.pd::before,.hd .ct::before,.hd .col a::before{width:1.3cqw;height:1.3cqw}}
+.col{text-align:right}.l a{color:#fff;text-decoration:none;pointer-events:auto}.col a{display:block;color:#fff;text-decoration:none}.col a:hover{opacity:.5}
+
+/* vertical sizes */
+@container (aspect-ratio < 1){
+ .l{font-size:2.45cqw;letter-spacing:.07em}
+ .l.big{font-size:3.4cqw}
+ .l.mid{font-size:2.9cqw}
+ .dot{width:1.05cqw;height:1.05cqw}
+}
+
+
+/* D — her new layout */
+.gD .l{text-transform:none}
+.gD .up{text-transform:uppercase}
+.gD .sm{font-size:max(8.5px,.66cqw);letter-spacing:.06em;line-height:1.15;-webkit-text-stroke:.012em #fff}
+.gD .nmD{font-size:max(13px,1.58cqw);letter-spacing:.14em;text-transform:uppercase}
+.gD .sub{font-size:max(9px,.86cqw);letter-spacing:.08em;line-height:1.3;text-transform:uppercase;-webkit-text-stroke:.012em #fff}
+.gD .mn{font-size:max(9px,.82cqw);letter-spacing:.04em;-webkit-text-stroke:.012em #fff}
+@container (aspect-ratio < 1){.gD .sm{font-size:1.75cqw;letter-spacing:.04em}.gD .nmD{font-size:3.1cqw}.gD .sub{font-size:2.1cqw}.gD .mn{font-size:2cqw}}
+.gD .lg{position:absolute;display:block;overflow:visible}
+.gD .lk{position:absolute;display:block;pointer-events:auto}.gD .lk .lg{position:static;width:100%;height:100%}
+.gD .lk:hover{opacity:.5}
+.gD .dV{display:none}
+@container (aspect-ratio < 1){.gD .dH{display:none}.gD .dV{display:block}}
+/* temporary comparison switch (not part of the design) */
+.sw{position:fixed;left:12px;bottom:12px;display:flex;gap:4px;z-index:30;background:rgba(0,0,0,.5);padding:4px;border-radius:20px;font:11px/1 -apple-system,Helvetica,sans-serif}
+.sw button{all:unset;cursor:pointer;color:#fff;padding:6px 11px;border-radius:14px;opacity:.7}
+.sw button[aria-pressed="true"]{background:#fff;color:#000;opacity:1}
+.sw i{width:1px;background:rgba(255,255,255,.3);margin:3px 4px}
+@media (hover:none){.sw .ori{display:none}}
+@media (max-width:700px){.sw{left:50%;transform:translateX(-50%);bottom:22vh}}
+
+.cur{position:fixed;left:0;top:0;width:7px;height:7px;margin:-3.5px 0 0 -3.5px;border-radius:50%;background:#fff;mix-blend-mode:difference;pointer-events:none;z-index:40;transition:transform .15s ease}
+.cur.hover{transform:scale(1.8)}
+@media (hover:none){.cur{display:none}}
+html,body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.vp{touch-action:none}
+@font-face{font-family:"Mi Linda";src:url("fonts/MiLinda-Regular.otf") format("opentype")}
+.hideT{display:none!important}
+.mm,.mm2{position:absolute;font-family:"Mi Linda","Neue Montreal",sans-serif;color:#fff;letter-spacing:.14em;line-height:1;white-space:nowrap;margin-top:-.13em}
+.mm2{text-align:center;letter-spacing:.08em;line-height:1.35}
+
+
+html,body{height:auto;overflow-x:hidden;overflow-y:auto;scroll-behavior:smooth}
+.vp{position:relative;height:100svh;touch-action:pan-y}
+.sw2{background:#f4f2ed;color:#111;padding:10vw 5vw 18vw;font-family:"Neue Montreal",sans-serif;-webkit-user-select:text;user-select:text}
+.sw2 .it{font-family:"Times New Roman",Times,serif;font-style:italic}
+.fg{display:grid;grid-template-columns:1fr 1fr;column-gap:6vw;row-gap:9vw;align-items:end}
+.fg figure{margin:0;display:flex;flex-direction:column;align-items:center}
+.fg .lb{font-size:3vw;margin-bottom:2.4vw;white-space:nowrap}.fg .lb b{font-weight:400;font-family:"Times New Roman",serif;margin-left:4vw}
+.fg img{display:block;object-fit:cover;max-width:100%}
+.fg .w img{width:46%;aspect-ratio:1}.fg .m img{width:40%;aspect-ratio:1}.fg .s img{width:34%;aspect-ratio:1}
+.info{text-align:center;margin:24vw 0 18vw}
+.info .n{font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:4.6vw;letter-spacing:.14em}
+.info .n2{font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:2.6vw;letter-spacing:.08em;line-height:1.4;margin-top:2.5vw}
+.info .ig{margin-top:9vw;font-size:3vw;letter-spacing:.06em;line-height:1.9}
+.info .ig a{color:#111;text-decoration:none}.info .ig span{opacity:.5;margin-right:2vw;font-size:2.4vw}
+.sel{text-align:center;font-size:3.6vw;margin-bottom:11vw}
+.cp{display:grid;grid-template-columns:1fr 1fr;column-gap:4vw;row-gap:7vw;text-align:center}
+.cp div{font-size:3.1vw;line-height:1.2}.cp .t{font-family:"Times New Roman",serif}.cp .k{font-family:"Times New Roman",serif}.cp .c{font-size:2.2vw;letter-spacing:.03em;margin-top:.6vw}
+@media (min-width:700px){.sw2{padding:110px 4vw 120px}.fg{grid-template-columns:repeat(4,1fr);column-gap:3vw;row-gap:70px}.fg .lb{font-size:15px;margin-bottom:12px}.fg .lb b{margin-left:24px}
+ .info{margin:140px 0 110px}.info .n{font-size:24px}.info .n2{font-size:13px;margin-top:12px}.info .ig{margin-top:44px;font-size:14px}.info .ig span{font-size:11px}
+ .sel{font-size:17px;margin-bottom:60px}.cp{grid-template-columns:repeat(4,1fr);row-gap:40px}.cp div{font-size:17px}.cp .c{font-size:12px}}
+
+.dn{position:absolute;left:50%;bottom:2.4cqw;transform:translateX(-50%);z-index:5;display:flex;flex-direction:column;align-items:center;gap:1.6cqw;color:#fff;text-decoration:none;font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:2.1cqw;letter-spacing:.14em;white-space:nowrap}
+.dn i{display:none;width:1px;height:7cqw;background:#fff;transform-origin:top;animation:dn 1.8s ease-in-out infinite}
+@keyframes dn{0%{transform:scaleY(0);opacity:1}60%{transform:scaleY(1);opacity:1}100%{transform:scaleY(1);opacity:0}}
+@container (aspect-ratio >= 1){.dn{font-size:.75cqw;bottom:.4cqw;gap:.6cqw}.dn i{height:2.6cqw}}
+
+/* scroll hint: the whole page "peeks" up, then settles back */
+.dn i{display:block}
+@keyframes peek{0%{transform:none}38%{transform:translateY(-20svh)}58%{transform:translateY(-20svh)}100%{transform:none}}
+html.peek .vp,html.peek .sw2{animation:peek 1.7s cubic-bezier(.65,0,.35,1)}
+
+/* contact page */
+html.ctOpen,html.ctOpen body{overflow:hidden}
+.ctp{position:fixed;inset:0;z-index:35;background:#faf9f6;color:#111;overflow-y:auto;-webkit-overflow-scrolling:touch;
+ font-family:"Neue Montreal","Helvetica Neue",Arial,sans-serif;-webkit-user-select:text;user-select:text;
+ opacity:0;visibility:hidden;transition:opacity .45s ease,visibility 0s linear .45s}
+html.ctOpen .ctp{opacity:1;visibility:visible;transition:opacity .45s ease}
+.ctp a{color:#111;text-decoration:none}
+.ctp .bar{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:22px 30px;font-size:12px;letter-spacing:.07em;text-transform:uppercase;background:#faf9f6;z-index:1}
+.ctp .bar a:hover,.ctp .rows a:hover,.ctp .ft a:hover{opacity:.5}
+.ctp .in{max-width:880px;margin:0 auto;padding:9vh 30px 80px;display:flex;flex-direction:column;align-items:center}
+.ctp .tag{font-family:"Times New Roman",Times,serif;font-style:italic;font-size:15px;margin-bottom:28px}
+.ctp .nm{font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:24px;letter-spacing:.14em;text-align:center;white-space:nowrap}
+.ctp .nm2{font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:13px;letter-spacing:.08em;line-height:1.4;margin-top:12px;text-align:center}
+.ctp .rows{width:100%;margin-top:9vh;display:grid;grid-template-columns:repeat(3,1fr);column-gap:30px;row-gap:34px;text-align:center}
+.ctp .rows div{font-size:14px;letter-spacing:.05em;line-height:1.55}
+.ctp .rows span{display:block;font-family:"Times New Roman",serif;font-style:italic;font-size:13px;letter-spacing:0;opacity:.55;margin-bottom:6px}
+.ctp form{width:100%;max-width:560px;margin-top:11vh;display:flex;flex-direction:column;gap:26px}
+.ctp form .h{text-align:center;font-family:"Times New Roman",serif;font-style:italic;font-size:15px;margin-bottom:6px}
+.ctp label{display:flex;flex-direction:column;gap:8px;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.ctp input,.ctp textarea{font:inherit;font-size:15px;letter-spacing:.02em;text-transform:none;color:#111;background:transparent;border:0;border-bottom:1px solid rgba(17,17,17,.25);border-radius:0;padding:6px 0 10px;outline:none;resize:none;-webkit-appearance:none;cursor:text}
+.ctp input:focus,.ctp textarea:focus{border-bottom-color:#111}
+.ctp textarea{min-height:110px;line-height:1.5}
+.ctp .send{align-self:center;margin-top:12px;display:inline-flex;align-items:center;gap:12px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:15px 30px;border:1px solid #111;border-radius:40px;transition:background .25s,color .25s}
+.ctp .send:hover{background:#111;color:#faf9f6}
+.ctp .note{text-align:center;font-size:11px;letter-spacing:.04em;opacity:.45;margin-top:-6px}
+.ctp .ft{margin-top:12vh;font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:11px;letter-spacing:.14em;opacity:.6}
+@media (max-width:700px){.ctp .bar{padding:18px 20px;font-size:11px}.ctp .in{padding:7vh 22px 60px}
+ .ctp .nm{font-size:19px}.ctp .nm2{font-size:11px}.ctp .rows{grid-template-columns:1fr;row-gap:28px;margin-top:7vh}
+ .ctp form{margin-top:9vh}}
+.gD .ctx{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;white-space:nowrap;font-family:"Neue Montreal","Helvetica Neue",Arial,sans-serif;font-size:.56cqw;line-height:1.08;letter-spacing:.05em;color:#fff}
+@container (aspect-ratio < 1){.gD .ctx{font-size:1.72cqw;line-height:1.12}}
+
+/* selected work: client names aligned on one line per row; event + place quiet */
+.fg{align-items:start}
+.fg .lb{font-family:"Neue Montreal",sans-serif;font-size:3.1vw;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;margin-bottom:3vw}
+.fg figcaption{margin-top:2.2vw;display:flex;flex-direction:column;align-items:center;gap:.5vw;text-align:center;max-width:92%;opacity:.55}
+.fg .ev{font-family:"Times New Roman",Times,serif;font-style:italic;font-size:2.2vw;line-height:1.2}
+.fg .pl{font-size:1.75vw;letter-spacing:.1em;text-transform:uppercase}
+.sw2 .sel{margin-bottom:12vw}
+.sw2 .info{margin:22vw 0 0}
+@media (min-width:700px){.sw2 .sel{margin-bottom:80px}.fg .lb{font-size:14px;margin-bottom:16px}.fg figcaption{margin-top:11px;gap:3px}.fg .ev{font-size:11px}.fg .pl{font-size:8.5px}.sw2 .info{margin:150px 0 0}}
+
+/* hero text +2pt */
+.gD .zL{transform:scale(1.23);transform-origin:left top}
+.gD .zR{transform:scale(1.23);transform-origin:right top}
+.gD .zC{--k:1.52;--dx:0px;--dy:.45cqw;transform:translate(var(--dx),var(--dy)) scale(var(--k));transform-origin:center top}
+.gD .dH .zC1{--dx:-1.6cqw}.gD .dH .zC3{--dx:1.6cqw}
+.gD .dV .zC{--k:1.33;--dy:.6cqw}.gD .dV .zC1{--dx:-2.2cqw}.gD .dV .zC3{--dx:2.4cqw}
+.gD .dH .mm{font-size:calc(1.6141cqw + 2pt)!important}
+.gD .dH .mm2{font-size:calc(.75cqw + 1pt)!important}
+.gD .dV .mm{font-size:calc(3.8808cqw + 2pt)!important}
+.gD .dV .mm2{font-size:calc(2.1cqw + 1pt)!important}
+.dn{font-size:calc(2.1cqw + 1pt)}
+@container (aspect-ratio >= 1){.dn{font-size:calc(.75cqw + 1pt)}}
+.fg figure:last-child:nth-child(odd){grid-column:1 / span 2}
+.fg figure.w:last-child:nth-child(odd) img{width:calc(23% - 1.5vw)}.fg figure.m:last-child:nth-child(odd) img{width:calc(20% - 1.2vw)}.fg figure.s:last-child:nth-child(odd) img{width:calc(17% - 1vw)}
+@media (min-width:700px){.fg figure:last-child:nth-child(odd){grid-column:auto}.fg figure:last-child:nth-child(odd) img{width:revert-layer}
+ .fg figure:last-child:nth-child(4n+1){grid-column:2 / span 2}
+ .fg figure.w:last-child:nth-child(4n+1) img{width:calc(23% - .75vw)}.fg figure.m:last-child:nth-child(4n+1) img{width:calc(20% - .6vw)}.fg figure.s:last-child:nth-child(4n+1) img{width:calc(17% - .5vw)}}
+.ctp .team{display:flex;justify-content:center;gap:48px;margin-top:2vh;width:100%}
+.ctp .team .tn{font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:13px;letter-spacing:.1em;margin-bottom:14px;white-space:nowrap}
+@media (max-width:700px){.ctp .team .tn{font-size:11px;margin-bottom:10px}}
+.ctp .team figure{margin:0;width:min(240px,40vw);display:flex;flex-direction:column;align-items:center}
+.ctp .team img{display:block;width:100%;aspect-ratio:2/3;object-fit:cover;filter:grayscale(1)}
+.ctp .team figcaption{margin-top:14px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+@media (max-width:700px){.ctp .team{gap:16px;margin-top:6vh}.ctp .team figcaption{font-size:10px;margin-top:10px}}
+.gD .ctl{position:absolute;pointer-events:auto;font-family:"Mi Linda","Neue Montreal",sans-serif;color:#fff;text-decoration:none;white-space:nowrap;line-height:1;letter-spacing:.14em;font-size:calc(.75cqw + 1pt);margin-top:-.13em;transform:translateY(.14cqw)}
+.gD .ctl:hover{opacity:.5}
+@container (aspect-ratio < 1){.gD .ctl{font-size:calc(2.1cqw + 1pt);transform:translateY(.26cqw)}}
+.ctp .send.wtu{margin-top:9vh}
+/* stop iOS auto-linking the phone number in blue */
+a[x-apple-data-detectors],.gD .ctx a,.ctp .rows a,a[href^="tel"]{color:inherit!important;text-decoration:none!important;font:inherit!important;letter-spacing:inherit!important}
+/* one travelling "SELECTED WORK": hero label glides down into the grid heading */
+.sw2 .sel{font-family:"Mi Linda","Neue Montreal",sans-serif;font-style:normal;letter-spacing:.14em;color:#111;font-size:calc(.75vw + 1pt);line-height:1}
+@media (orientation:portrait){.sw2 .sel{font-size:calc(2.1vw + 1pt)}}
+.fsw{position:absolute;left:50%;top:0;transform:translateX(-50%);z-index:20;pointer-events:none;white-space:nowrap;font-family:"Mi Linda","Neue Montreal",sans-serif;letter-spacing:.14em;line-height:1;color:#fff;transition:color .35s ease;display:none}
+.fsw.dark{color:#111}
+html.trav .dn,html.trav .sw2 .sel{visibility:hidden}
+.ctp .bio{max-width:520px;margin:7vh auto 0;text-align:center;font-size:14px;line-height:1.65;letter-spacing:.02em;color:#111}
+@media (max-width:700px){.ctp .bio{font-size:13px;margin-top:5vh;padding:0 6px}}
+
+/* TEST 21 nov: Selected Work más grande, sin línea, misma altura */
+.dn i{display:none!important}
+.dn{font-size:calc(2.1cqw + 2.5pt)!important;bottom:calc(2.4cqw + 8.6cqw)}
+@container (aspect-ratio >= 1){.dn{font-size:calc(.75cqw + 2.5pt)!important;bottom:calc(.4cqw + 3.2cqw)}}
+.sw2 .sel{font-size:calc(.75vw + 2.5pt)}
+@media (orientation:portrait){.sw2 .sel{font-size:calc(2.1vw + 2.5pt)}}
+/* TEST 21 nov: fotos claras oscurecidas (fondo negro + foto al 89%) */
+.stage{background:#000}
+.stage img.lt.on{opacity:.89}
+/* 21 nov: misma escala tipográfica en About que en la portada */
+.ctp .bar{padding:4.86vw 4.2vw;font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:calc(2.1vw + 1pt);letter-spacing:.14em;line-height:1}
+.ctp .tn,.ctp .ft{font-size:calc(2.1vw + 1pt)!important;letter-spacing:.14em}
+.ctp .tag{font-size:calc(2.6vw + 1pt)}
+.ctp .bio{font-size:calc(2.9vw + 1pt)}
+.ctp .rows div{font-size:calc(2.9vw + 1pt)}
+.ctp .rows span{font-size:calc(2.6vw + 1pt)}
+.ctp .team figcaption{font-size:calc(2.1vw + 1pt)}
+@media (orientation:landscape){
+ .ctp .bar{padding:1.49vw 2.03vw;font-size:calc(.75vw + 1pt)}
+ .ctp .tn,.ctp .ft{font-size:calc(.75vw + 1pt)!important}
+ .ctp .tag{font-size:calc(.95vw + 1pt)}
+ .ctp .bio,.ctp .rows div{font-size:calc(.95vw + 1pt)}
+ .ctp .rows span{font-size:calc(.85vw + 1pt)}}
+html.scd .dn{visibility:hidden!important}
+body.phone .sw2,body.phone .ctp,body.phone .fsw{display:none!important}body.phone{overflow:hidden!important;height:100vh}
+body.phone .phones{display:flex;inset:30px 0 20px}body.phone .ph iframe{width:calc((100vh - 90px)*390/844)}body.phone .cur{display:none}body.phone,body.phone *{cursor:auto!important}
+/* 24 nov: Selected Work estilo archivo del CV */
+.sw2{position:relative;padding-top:30vw!important}
+.sw2 .sel{margin-bottom:20vw!important}
+.fg,.sw2 .sel,.sw2 .info{position:relative;z-index:1}
+.fg figure{align-items:center}
+.fg .fx{font-family:"Times New Roman",Times,serif;font-style:italic;font-size:2.7vw;letter-spacing:.01em;margin-bottom:2.4vw;color:#111}
+.fg figcaption{opacity:1!important;margin-top:2.6vw;gap:.4vw;max-width:100%}
+.fg .ev{font-style:normal!important;font-size:2.9vw!important;line-height:1.15;color:#111;white-space:nowrap}
+.fg .pl{font-family:"Mi Linda","Neue Montreal",sans-serif;text-transform:none!important;letter-spacing:.04em!important;font-size:2.2vw!important;color:#111;white-space:nowrap}
+.fg .pl b{font-weight:400;text-transform:uppercase;letter-spacing:.08em;-webkit-text-stroke:.02em #111}
+.ghost{position:absolute;left:0;right:0;top:46%;z-index:0;text-align:center;color:#111;opacity:.075;pointer-events:none;user-select:none;font-family:"Mi Linda","Neue Montreal",sans-serif;letter-spacing:.12em}
+.ghost .g1{font-size:6.4vw}.ghost .g2{font-size:3.6vw;line-height:1.35;margin-top:3vw;letter-spacing:.08em}
+.ghost .g3{font-size:3.6vw;line-height:1.5;margin-top:8vw;letter-spacing:.06em}.ghost .g4{font-size:3.6vw;line-height:1.5;margin-top:6vw;letter-spacing:.08em}
+@media (min-width:700px){.sw2{padding-top:200px!important}.sw2 .sel{margin-bottom:110px!important}
+ .fg .fx{font-size:13px;margin-bottom:12px}.fg figcaption{margin-top:12px;gap:2px}.fg .ev{font-size:13px!important}.fg .pl{font-size:10.5px!important}
+ .ghost{top:38%}.ghost .g1{font-size:34px}.ghost .g2{font-size:18px;margin-top:14px}.ghost .g3{font-size:18px;margin-top:36px}.ghost .g4{font-size:18px;margin-top:28px}}
+/* 24 nov v2: fig + marca arriba, info abajo; solo 2 fuentes; papel del CV */
+.sw2{background:#fbfaf8!important}
+.fg .fx{font-family:"Times New Roman",Times,serif;font-style:normal;font-size:3.1vw;letter-spacing:0;margin-bottom:.8vw;color:#111}
+.fg .br{font-family:"Mi Linda","Neue Montreal",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:calc(2.1vw + 1pt);color:#111;margin-bottom:3vw;white-space:nowrap}
+.fg .ev,.fg .pl{font-family:"Times New Roman",Times,serif!important;font-style:normal!important;text-transform:none!important;letter-spacing:0!important;color:#111;-webkit-text-stroke:0!important}
+.fg .ev{font-size:3.1vw!important}.fg .pl{font-size:2.6vw!important;opacity:.6}
+@media (min-width:700px){.fg .fx{font-size:15px;margin-bottom:4px}.fg .br{font-size:calc(.75vw + 1pt);margin-bottom:14px}.fg .ev{font-size:14px!important}.fg .pl{font-size:12px!important}}
+/* 24 nov v3: cliente arriba, (evento) y lugar abajo, todo alineado, imágenes más grandes */
+.fg{grid-template-columns:1fr 1fr!important;column-gap:8vw!important;row-gap:18vw!important;align-items:start!important;padding:0 1vw}
+.fg figure{display:flex;flex-direction:column;align-items:center;width:100%}
+.fg .br{margin-bottom:4vw!important}
+.fg .bx{width:100%;height:46vw;display:flex;align-items:center;justify-content:center}
+.fg .bx img{width:auto!important;height:auto!important;max-width:100%;max-height:100%;aspect-ratio:auto!important;object-fit:contain}
+.fg .m .bx img{max-width:88%;max-height:88%}.fg .s .bx img{max-width:76%;max-height:76%}
+.fg figcaption{margin-top:4vw!important;gap:.8vw!important}
+.fg .pl{opacity:1!important}
+.fg figure:last-child:nth-child(odd){grid-column:auto}
+@media (min-width:700px){.fg{grid-template-columns:repeat(4,1fr)!important;column-gap:4vw!important;row-gap:110px!important;padding:0 2vw}
+ .fg .br{margin-bottom:18px!important}.fg .bx{height:17vw}.fg figcaption{margin-top:18px!important;gap:3px!important}}
+/* 24 nov v4: (Fig) chiquito, marca grande, imagen más chica, info discreta */
+.fg{row-gap:16vw!important;column-gap:6vw!important}
+.fg .fx{display:block!important;font-family:"Times New Roman",Times,serif;font-style:normal;font-size:2.4vw!important;letter-spacing:.02em;color:#111;margin-bottom:1.4vw!important;opacity:.8}
+.fg .br{font-size:3.2vw!important;letter-spacing:.12em!important;margin-bottom:4.5vw!important}
+.fg .bx{height:30vw!important}
+.fg .bx img{max-width:76%!important;max-height:100%!important}
+.fg .m .bx img{max-width:68%!important;max-height:90%!important}.fg .s .bx img{max-width:58%!important;max-height:80%!important}
+.fg figcaption{margin-top:3.5vw!important;gap:.6vw!important}
+.fg .ev{font-style:italic!important;font-size:2.5vw!important;line-height:1.2}
+.fg .pl{font-size:2.2vw!important;opacity:.7!important}
+@media (min-width:700px){.fg{row-gap:90px!important;column-gap:3vw!important}
+ .fg .fx{font-size:11px!important;margin-bottom:5px!important}.fg .br{font-size:calc(.95vw + 2pt)!important;margin-bottom:16px!important}
+ .fg .bx{height:11vw!important}.fg figcaption{margin-top:14px!important;gap:2px!important}.fg .ev{font-size:12px!important}.fg .pl{font-size:10.5px!important}}
+/* 24 nov v5: más aire, imágenes algo más chicas, pie con Instagram + contacto */
+.sw2 .sel{margin-bottom:26vw!important}
+.fg .bx img{max-width:70%!important;max-height:92%!important}
+.fg .m .bx img{max-width:60%!important;max-height:80%!important}.fg .s .bx img{max-width:50%!important;max-height:68%!important}
+.info .ig2{display:flex;justify-content:center;gap:14vw;margin-top:9vw;font-family:"Neue Montreal","Helvetica Neue",Arial,sans-serif;font-size:2.3vw;line-height:1.15;letter-spacing:.05em;color:#111}
+.info .ig2 a{color:inherit;text-decoration:none}
+.fg .bx{height:27vw!important}
+@media (min-width:700px){.fg .bx{height:10vw!important}.sw2 .sel{margin-bottom:150px!important}.info .ig2{font-size:10.5px;gap:70px;margin-top:44px}}
+/* 24 nov v6: réplica de la mesa "scroll web 24 nov" de Illustrator */
+.sw2 .sel{margin-bottom:49vw!important}
+.fg{row-gap:16vw!important}
+.fg .fx{margin-bottom:1.5vw!important}
+.fg .br{margin-bottom:2.8vw!important}
+.fg .bx{height:33.4vw!important}
+.fg .bx img,.fg .m .bx img,.fg .s .bx img{width:calc(var(--w)*1vw)!important;height:calc(var(--h)*1vw)!important;max-width:none!important;max-height:none!important;object-fit:cover}
+.fg figcaption{margin-top:2vw!important;gap:.4vw!important}
+.fg .pl{opacity:1!important}
+.sw2 .info{margin-top:59vw!important}
+@media (min-width:700px){.sw2 .sel{margin-bottom:190px!important}.fg{row-gap:90px!important}.fg .bx{height:150px!important}
+ .fg .bx img,.fg .m .bx img,.fg .s .bx img{width:calc(var(--w)*4.4px)!important;height:calc(var(--h)*4.4px)!important}
+ .fg .br{margin-bottom:12px!important}.fg figcaption{margin-top:10px!important}.sw2 .info{margin-top:180px!important}}
+/* 24 nov: About Us limpio, mismo papel que Selected Work */
+.ctp,.ctp .bar{background:#fbfaf8!important}
+.ctp .ab{max-width:640px;padding:16vw 9vw 22vw!important;align-items:stretch!important;font-family:"Times New Roman",Times,serif;color:#111;font-size:2.9vw;line-height:1.38}
+.ctp .ab a{color:#111;text-decoration:none}
+.ctp .ab-c{text-align:center;margin-bottom:13vw}
+.ctp .ab-bio{margin:6vw 0 22vw;text-align:left}
+.ctp .ab-cols{display:grid;grid-template-columns:1fr 1fr;column-gap:8vw;row-gap:12vw}
+.ctp .ab-cols span{display:block;margin-bottom:5vw}
+@media (min-width:700px){.ctp .ab{padding:110px 30px 140px!important;font-size:13px;line-height:1.36}
+ .ctp .ab-c{margin-bottom:60px}.ctp .ab-bio{margin:40px 0 160px}.ctp .ab-cols{grid-template-columns:repeat(3,1fr);column-gap:40px}.ctp .ab-cols span{margin-bottom:22px}}
+.ctp .ab-team{display:flex;justify-content:center;gap:6vw;margin-bottom:16vw}
+.ctp .ab-team figure{margin:0;width:31vw;text-align:center}
+.ctp .ab-team img{display:block;width:100%;aspect-ratio:2/3;object-fit:cover;filter:grayscale(1)}
+.ctp .ab-team figcaption{margin:0 0 2.6vw}
+.ctp .ab-bio p+p{margin-top:1em}
+@media (min-width:700px){.ctp .ab-team{gap:36px;margin-bottom:70px}.ctp .ab-team figure{width:170px}.ctp .ab-team figcaption{margin:0 0 12px}.ctp .ab-cols{grid-template-columns:repeat(2,1fr);max-width:420px;margin:0 auto}}
+/* 24 nov: menos aire antes de la grilla; títulos del About en la letra de títulos */
+.sw2 .sel{margin-bottom:22vw!important}
+.ctp .ab-team figcaption,.ctp .ab-cols span{font-family:"Mi Linda","Neue Montreal",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:calc(2.1vw + 1pt)}
+@media (min-width:700px){.sw2 .sel{margin-bottom:100px!important}.ctp .ab-team figcaption,.ctp .ab-cols span{font-size:calc(.75vw + 1pt)}}
+.ctp .ab-team{gap:4vw}.ctp .ab-team figure{width:37vw}.ctp .ab-team img{width:84%;margin:0 auto}
+.ctp .ab-team figcaption{white-space:nowrap;letter-spacing:.12em}
+@media (min-width:700px){.ctp .ab-team figure{width:200px}.ctp .ab-team img{width:170px}}
+/* 24 nov: proyectos aparecen uno por uno cuando SELECTED WORK ya se asentó */
+.fg figure{opacity:0;transform:translateY(16px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.fg figure.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fg figure{opacity:1;transform:none;transition:none}}
+/* 24 nov: SELECTED WORK un punto más grande; contacto de las dos */
+.dn{font-size:calc(2.1cqw + 3.5pt)!important}
+@container (aspect-ratio >= 1){.dn{font-size:calc(.75cqw + 3.5pt)!important}}
+.sw2 .sel{font-size:calc(.75vw + 3.5pt)!important}
+@media (orientation:portrait){.sw2 .sel{font-size:calc(2.1vw + 3.5pt)!important}}
+.ctp .ab-ct{display:flex;justify-content:center;gap:9vw}
+@media (min-width:700px){.ctp .ab-ct{gap:60px}}
+.info .kick{font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:calc(2.1vw + 1pt);letter-spacing:.14em;color:#111;margin-bottom:4vw}
+.info .ig2{line-height:1.4;gap:12vw}
+@media (min-width:700px){.info .kick{font-size:calc(.75vw + 1pt);margin-bottom:18px}.info .ig2{gap:70px}}
+/* 24 nov: About en orden fotos > texto > listas > based > contacto; pie más espaciado */
+.ctp .ab-bio{margin-top:2vw}
+.ctp .ab-cols{margin-bottom:20vw}
+.ctp .ab-c{margin-bottom:10vw}
+.ctp .ab-ct{gap:4vw;margin-bottom:0}
+.ctp .ab-ct>div{width:37vw;text-align:center}
+.info .ig2{gap:26vw!important;font-size:2.1vw!important;letter-spacing:.05em}
+@media (min-width:700px){.ctp .ab-cols{margin-bottom:90px}.ctp .ab-c{margin-bottom:50px}.ctp .ab-ct>div{width:200px}.ctp .ab-ct{gap:36px}.info .ig2{gap:140px!important;font-size:10px!important}}
+a.nl{color:inherit!important;text-decoration:none!important;pointer-events:auto}a.nl:hover{opacity:.5}
+/* 24 nov: fotos del About más chicas */
+.ctp .ab-team img{width:64%!important}
+@media (min-width:700px){.ctp .ab-team img{width:130px!important}}
+/* 24 nov: About — fotos > contacto > based > texto > listas > cierre */
+.ctp .ab-team{margin-bottom:5vw!important}
+.ctp .ab-ct{margin-bottom:14vw!important}
+.ctp .ab-end{text-align:center;margin-top:22vw}
+.ctp .ab-sig{margin-top:6vw;font-family:"Mi Linda","Neue Montreal",sans-serif;letter-spacing:.14em;font-size:calc(2.1vw + 1pt)}
+.ctp .ab-cols{margin-bottom:0!important}
+@media (min-width:700px){.ctp .ab-team{margin-bottom:24px!important}.ctp .ab-ct{margin-bottom:60px!important}.ctp .ab-end{margin-top:110px}.ctp .ab-sig{margin-top:24px;font-size:calc(.75vw + 1pt)}}
+/* 24 nov: barra fija arriba en Selected Work; menos aire título-grilla */
+.sw2 .sel{margin-bottom:12vw!important}
+@media (min-width:700px){.sw2 .sel{margin-bottom:60px!important}}
+.tbar{position:fixed;left:0;right:0;top:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:4.86vw 4.2vw 4vw;background:#fbfaf8;font-family:"Mi Linda","Neue Montreal",sans-serif;font-size:calc(2.1vw + 1pt);letter-spacing:.14em;line-height:1;color:#111;opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .45s ease,transform .45s ease,visibility 0s linear .45s}
+.tbar a{color:#111;text-decoration:none}.tbar a:hover{opacity:.5}
+html.bar .tbar{opacity:1;visibility:visible;transform:none;transition:opacity .45s ease,transform .45s ease}
+html.ctOpen .tbar{opacity:0;visibility:hidden}
+@media (orientation:landscape){.tbar{padding:1.49vw 2.03vw 1.3vw;font-size:calc(.75vw + 1pt)}}
+body.frame .tbar,body.phone .tbar{}
+/* 24 nov: Selected Work más arriba, grilla más compacta */
+.sw2{padding-top:17vw!important}
+.sw2 .sel{margin-bottom:17vw!important}
+.fg{row-gap:12vw!important}
+@media (min-width:700px){.sw2{padding-top:120px!important}.sw2 .sel{margin-bottom:120px!important}.fg{row-gap:70px!important}}
+.fg .fx{margin-bottom:1vw!important;line-height:1!important}
+.fg .br{line-height:1!important}
+@media (min-width:700px){.fg .fx{margin-bottom:4px!important}}
+/* ---------- 24 nov: portada desktop = diseño de Mili (portfolio_web.ai) ---------- */
+@container (aspect-ratio >= 1){
+ .gD .dH .mm{font-size:1.6141cqw!important;letter-spacing:.105em;transform:translateY(.17cqw)}
+ .gD .dH .mm:nth-child(1){right:calc(50cqw + .45cqw)!important}
+ .gD .dH .mm:nth-child(2){left:calc(50cqw + 2.21cqw)!important}
+ .gD .dH .mm2{font-size:.8727cqw!important;line-height:1.286;transform:translateY(-.13cqw)}
+ .gD .dH .zL,.gD .dH .zR{transform:none}
+ .gD .dH .zC{transform:translate(.32cqw,.056cqw)}
+ .gD .ctl{font-size:.77cqw;letter-spacing:-.012em;transform:translateY(.084cqw)}
+ .gD .ctl:not(a){left:1.77cqw!important}
+ .gD a.ctl[href="#contact"]{right:1.44cqw!important;margin-right:0!important}
+ .dn{font-size:.77cqw!important;letter-spacing:.055em;bottom:1.68cqw}
+}
+@media (orientation:landscape){.tbar{font-size:.77vw;letter-spacing:-.012em;padding-left:1.77vw;padding-right:1.44vw}.tbar a[href="#contact"]{margin-right:0!important}
+ .sw2 .sel{font-size:.77vw!important;letter-spacing:.055em}.fsw{letter-spacing:.055em}}
+/* 24 nov: en ventanas verticales anchas (panel de Claude, tablet) la letra no pasa el tamaño de compu */
+@media (orientation:portrait){
+ .sw2 .sel{font-size:min(calc(2.1vw + 3.5pt),15.5px)!important}
+ .tbar{font-size:min(calc(2.1vw + 1pt),12px)}
+ .ctp .bar{font-size:min(calc(2.1vw + 1pt),12px)}
+ .ctp .tn,.ctp .ft{font-size:min(calc(2.1vw + 1pt),12px)!important}
+ .ctp .ab-team figcaption,.ctp .ab-cols span,.ctp .ab-sig{font-size:min(calc(2.1vw + 1pt),12px)}
+ .ctp .ab{font-size:min(2.9vw,13px)}
+ .info .kick{font-size:min(calc(2.1vw + 1pt),12px)}
+}
+@container (aspect-ratio < 1){
+ .gD .dV .mm{font-size:min(calc(3.8808cqw + 2pt),26px)!important}
+ .gD .dV .mm2{font-size:min(calc(2.1cqw + 1pt),12px)!important}
+ .gD .ctl{font-size:min(calc(2.1cqw + 1pt),12px)}
+ .dn{font-size:min(calc(2.1cqw + 3.5pt),15.5px)!important}
+ .gD .ctx{font-size:min(1.72cqw,9px)}
+}
+</style>
+</head>
+<body data-g="d">
+<div class="vp" id="vp">
+  <div class="stage" id="stage"></div>
+  <a class="dn" href="#proyectos">SELECTED WORK<i></i></a>
+  <div class="g gA" id="gA"></div>
+  <div class="g gD" id="gD">
+<div class="dH">
+<div class="mm" style="right:calc(50cqw + 2.7778cqw);top:calc(50cqh + -3.8681cqw);font-size:1.6141cqw">MILAGROS</div>
+<div class="mm" style="left:calc(50cqw + 2.7778cqw);top:calc(50cqh + -3.8681cqw);font-size:1.6141cqw">MARTINA</div>
+<div class="mm2" style="left:0;right:0;top:calc(50cqh + -0.5764cqw);font-size:0.8727cqw"><a class="nl" href="https://www.instagram.com/millygomezpaz/" target="_blank" rel="noopener">M.&nbsp;GÓMEZ&nbsp;PAZ</a><br><a class="nl" href="https://www.instagram.com/martinafreytes/" target="_blank" rel="noopener">M.&nbsp;FREYTES</a></div>
+
+<svg class="lg hideT" viewBox="701.51 877.32 36.99 11.59" style="left:48.7160cqw;width:2.5688cqw;bottom:0.7697cqw;"><g>
+        <path d="M704.842,878.322c-.748,1.332-1.342,2.785-1.342,4.82,0,1.99.594,3.443,1.342,4.773h-.77c-.858-1.111-1.562-2.783-1.562-4.773,0-2.059.704-3.709,1.562-4.82h.77Z" fill="#fff" />
+        <path d="M706.524,881.689c0-1.572.857-2.816,2.739-2.816,1.298,0,2.42.826,2.42,2.277,0,2.607-3.707,2.762-4.181,4.576v.023h4.07v.879h-5.27c0-1.375.869-2.453,2.267-3.268,1.419-.824,2.123-1.088,2.123-2.199,0-.639-.286-1.408-1.452-1.408-1.331,0-1.728.891-1.728,1.936h-.989Z" fill="#fff" />
+        <path d="M713.455,882.834c0-2.156.847-3.961,2.926-3.961s2.927,1.805,2.927,3.961-.847,3.949-2.927,3.949-2.926-1.793-2.926-3.949ZM718.317,882.834c0-1.617-.484-3.08-1.937-3.08s-1.936,1.463-1.936,3.08.483,3.068,1.936,3.068,1.937-1.451,1.937-3.068Z" fill="#fff" />
+        <path d="M721.188,881.689c0-1.572.857-2.816,2.739-2.816,1.298,0,2.42.826,2.42,2.277,0,2.607-3.707,2.762-4.181,4.576v.023h4.07v.879h-5.27c0-1.375.869-2.453,2.267-3.268,1.419-.824,2.123-1.088,2.123-2.199,0-.639-.286-1.408-1.452-1.408-1.331,0-1.728.891-1.728,1.936h-.989Z" fill="#fff" />
+        <path d="M731.144,881.668c1.452,0,2.464,1,2.464,2.508,0,1.408-.99,2.607-2.641,2.607-2.079,0-2.849-1.539-2.849-3.961,0-2.529.99-3.949,2.882-3.949,1.42,0,2.3.969,2.409,2.08h-.989c-.1-.738-.562-1.199-1.42-1.199-1.573,0-1.87,1.496-1.892,3.025v.021c.374-.715,1.144-1.133,2.035-1.133ZM732.617,884.242c0-1.09-.66-1.695-1.562-1.695-1.101,0-1.838.693-1.838,1.717,0,.98.649,1.639,1.749,1.639,1.046,0,1.65-.648,1.65-1.66Z" fill="#fff" />
+        <path d="M737.5,883.143c0,1.99-.704,3.662-1.562,4.773h-.77c.748-1.33,1.342-2.783,1.342-4.773,0-2.035-.594-3.488-1.342-4.82h.77c.858,1.111,1.562,2.762,1.562,4.82Z" fill="#fff" />
+      </g>
+      </svg>
+<div class="ctl" style="left:2.0565cqw;top:1.4898cqw">CREATIVE LAB</div>
+<a class="ctl" href="#contact" style="margin-right:-.14em;right:2.0296cqw;top:1.4898cqw">ABOUT US</a>
+<svg class="lg hideT" viewBox="607.85 388.81 95.48 25.42" style="left:42.2121cqw;width:6.6308cqw;top:calc(50cqh + -4.2495cqw);"><g>
+            <path d="M622.273,406.56l-3.915-.047v-2.237h6.501c.023,1.422-.047,2.727-.489,4.031-1.212,3.635-4.66,5.289-8.458,4.777-2.912-.373-5.336-2.237-6.385-5.01-.908-2.424-.908-5.127.07-7.503,1.422-3.425,4.777-5.382,8.458-5.032,2.261.209,4.218,1.281,5.569,3.098l-2.168,1.585c-.979-1.538-2.562-2.353-4.334-2.353-2.307-.023-4.287,1.281-5.148,3.424-1.492,3.729-.21,8.575,4.031,9.414,1.561.303,3.145.07,4.449-.839,1.025-.792,1.585-1.911,1.818-3.309Z" fill="#fff" />
+            <path d="M645.22,407.98c-1.235,3.262-4.265,5.196-7.666,5.242-3.845.047-7.083-2.353-8.062-6.058-.489-1.841-.489-3.751,0-5.592,1.002-3.704,4.24-6.104,8.062-6.058,3.425.047,6.407,1.98,7.643,5.172.886,2.354.933,4.894.023,7.293ZM637.484,410.87c2.492-.023,4.52-1.421,5.359-3.682.675-1.864.652-3.892-.047-5.731-.863-2.26-2.959-3.588-5.359-3.588-2.447.022-4.521,1.421-5.312,3.75-.629,1.795-.629,3.682-.023,5.5.815,2.307,2.866,3.751,5.383,3.751ZM636.691,393.581l-1.863-.022,2.516-3.752,2.82.023-3.473,3.751Z" fill="#fff" />
+            <path d="M665.369,398.357c-.186-.232-.419-.093-.441.141l-5.174,14.398h-.932l-5.359-14.608c-.023-.093-.303-.093-.372.022v14.609h-2.284v-17.148h3.984l4.311,11.721c.07.115.164.115.233.115.093,0,.21-.046.233-.232l4.17-11.604h3.938v17.148h-2.308v-14.562Z" fill="#fff" />
+            <path d="M681.162,405.092h-5.521l-.023,5.568h9.553v2.26h-11.977v-17.148h11.65l.023,2.26h-9.227l-.023,4.824h5.545v2.236Z" fill="#fff" />
+            <path d="M702.292,410.684l.046,2.26h-12.954v-2.865l10.229-11.953-9.833-.07v-2.283h12.467l.022,2.889-9.972,11.627c-.047.094-.047.396,0,.396h9.995Z" fill="#fff" />
+          </g>
+          </svg>
+<svg class="lg hideT" viewBox="780.62 393.35 51.62 19.17" style="left:54.2100cqw;width:3.5849cqw;top:calc(50cqh + -3.9340cqw);"><g>
+            <path d="M794.416,399.453c.023,3.471-2.609,5.289-5.965,5.289h-4.357v6.78h-2.47v-17.149h7.503c.769,0,1.561.257,2.283.467,1.957.769,3.006,2.539,3.029,4.613h-.023ZM791.316,401.34c.816-1.071.84-2.516.094-3.588-.629-.652-1.468-1.049-2.424-1.049l-4.893-.047v5.756l4.566-.023c1.002,0,1.935-.303,2.656-1.049Z" fill="#fff" />
+            <path d="M810.443,407.491l-8.249-.022-1.515,4.03h-2.423l6.571-17.149h3.028l6.594,17.149h-2.517l-1.49-4.008ZM809.58,405.208l-3.075-8.295c-.093-.116-.279-.14-.396-.023l-3.1,8.318h6.594-.023Z" fill="#fff" />
+            <path d="M831.199,409.262l.047,2.261h-12.955v-2.866l10.229-11.953-9.832-.07v-2.283h12.465l.023,2.89-9.973,11.627c-.047.093-.047.396,0,.396h9.996Z" fill="#fff" />
+          </g>
+        </svg>
+<svg class="lg hideT" viewBox="669.57 440.69 105.23 11.28" style="left:46.4981cqw;width:7.3078cqw;top:calc(50cqh + -0.6467cqw);"><g>
+          <path d="M678.191,443.184c-.098-.121-.22-.049-.231.073l-2.707,7.534h-.487l-2.805-7.644c-.012-.049-.158-.049-.194.013v7.644h-1.195v-8.974h2.085l2.256,6.133c.036.061.085.061.121.061.049,0,.11-.023.122-.121l2.183-6.072h2.061v8.974h-1.207v-7.62Z" fill="#fff" />
+          <path d="M682.291,441.83h1.28v8.974h-1.28v-8.974Z" fill="#fff" />
+          <path d="M691.997,449.597l.013,1.207h-5.548v-8.961l1.28-.013v7.767h4.255Z" fill="#fff" />
+          <path d="M700.217,448.707l-4.315-.013-.793,2.109h-1.268l3.438-8.974h1.585l3.451,8.974h-1.317l-.78-2.097ZM699.766,447.512l-1.609-4.34c-.049-.061-.146-.073-.207-.012l-1.621,4.352h3.45-.013Z" fill="#fff" />
+          <path d="M711.376,447.476l-2.048-.024v-1.17h3.401c.012.743-.024,1.426-.256,2.108-.635,1.901-2.438,2.768-4.426,2.499-1.524-.195-2.792-1.17-3.341-2.621-.476-1.268-.476-2.682.037-3.926.743-1.792,2.499-2.816,4.425-2.633,1.183.109,2.207.67,2.914,1.621l-1.134.829c-.512-.805-1.341-1.231-2.268-1.231-1.207-.012-2.243.67-2.694,1.793-.78,1.95-.109,4.486,2.109,4.925.816.159,1.646.036,2.328-.438.537-.415.829-1,.951-1.731Z" fill="#fff" />
+          <path d="M722.156,450.791l-1.487.025-1.914-3.719-2.194-.012v3.73h-1.292v-8.974h4.108c.463,0,.927.134,1.329.28.938.378,1.45,1.207,1.499,2.195.049,1.316-.743,2.377-2.085,2.645l2.036,3.828ZM720.9,444.415c.037-.658-.354-1.134-.926-1.304l-.72-.123h-2.694v2.939h2.536c.365-.025.731-.062,1.061-.208.512-.231.78-.731.743-1.305Z" fill="#fff" />
+          <path d="M732.767,448.219c-.646,1.707-2.231,2.719-4.012,2.744-2.011.023-3.706-1.232-4.218-3.17-.256-.964-.256-1.963,0-2.927.524-1.938,2.219-3.194,4.218-3.17,1.793.024,3.354,1.036,3.999,2.706.464,1.232.488,2.561.013,3.816ZM728.719,449.73c1.305-.012,2.365-.743,2.804-1.926.354-.976.342-2.036-.024-3-.451-1.182-1.548-1.877-2.804-1.877-1.28.012-2.365.744-2.779,1.963-.33.939-.33,1.926-.013,2.877.427,1.207,1.5,1.963,2.816,1.963Z" fill="#fff" />
+          <path d="M740.305,450.67c-1.622.683-3.67.109-4.913-1.073l.926-.999c.659.67,1.415,1.097,2.316,1.158,1.037.072,1.927-.391,1.902-1.33-.024-.877-.914-1.133-1.67-1.414l-1.865-.683c-.695-.354-1.158-.938-1.244-1.694-.134-1.293.561-2.414,1.829-2.779,1.378-.402,2.816.012,3.95.963l-.927,1.012c-.744-.768-1.719-1.109-2.694-.842-.464.123-.78.488-.854.891-.183,1.109.987,1.463,1.999,1.792,1.427.451,2.805.951,2.792,2.657-.012,1.049-.572,1.939-1.548,2.342Z" fill="#fff" />
+          <path d="M749.379,445.342l-.902.012-.17-3.572,1.231-.012-.159,3.572ZM752,445.354h-.901l-.184-3.572,1.231-.012-.146,3.584Z" fill="#fff" />
+          <path d="M762.268,443.184c-.098-.121-.22-.049-.231.073l-2.707,7.534h-.487l-2.805-7.644c-.012-.049-.158-.049-.194.013v7.644h-1.195v-8.974h2.085l2.256,6.133c.036.061.085.061.121.061.049,0,.11-.023.122-.121l2.183-6.072h2.061v8.974h-1.207v-7.62Z" fill="#fff" />
+          <path d="M766.916,449.061c.513,0,.939.414.939.938,0,.513-.427.927-.939.927-.523,0-.938-.414-.938-.927,0-.524.415-.938.938-.938Z" fill="#fff" />
+          <path d="M771.038,445.342l-.902.012-.17-3.572,1.231-.012-.159,3.572ZM773.659,445.354h-.901l-.184-3.572,1.231-.012-.146,3.584Z" fill="#fff" />
+        </g>
+        </svg>
+<svg class="lg hideT" viewBox="685.09 457.01 70.27 11.28" style="left:47.5757cqw;width:4.8800cqw;top:calc(50cqh + 0.4868cqw);"><g>
+          <path d="M693.198,460.701c.792,2.122.269,4.951-1.95,5.975-.562.232-1.146.451-1.781.451l-3.377.024v-8.985h3.207c.549,0,1.061.158,1.572.293,1.073.39,1.927,1.146,2.329,2.242ZM692.101,461.555c-.305-1.256-1.353-2.06-2.657-2.157-.671-.049-1.329-.024-2.072-.024v6.571l1.693-.013c.342,0,.72-.061,1.049-.158,1.842-.512,2.414-2.45,1.987-4.219Z" fill="#fff" />
+          <path d="M700.309,463.031h-2.889l-.012,2.913h4.998v1.183h-6.267v-8.973h6.096l.013,1.182h-4.828l-.012,2.523h2.9v1.172Z" fill="#fff" />
+          <path d="M709.553,466.992c-1.621.684-3.669.11-4.912-1.072l.926-1c.658.671,1.414,1.098,2.316,1.158,1.037.074,1.926-.39,1.902-1.328-.024-.879-.914-1.135-1.67-1.414l-1.865-.684c-.695-.354-1.158-.938-1.244-1.694-.135-1.292.561-2.414,1.828-2.78,1.379-.402,2.816.013,3.951.963l-.928,1.013c-.743-.769-1.719-1.109-2.693-.841-.464.121-.781.487-.854.89-.184,1.109.987,1.463,1.999,1.792,1.427.451,2.804.951,2.792,2.658-.012,1.049-.572,1.938-1.549,2.34Z" fill="#fff" />
+          <path d="M713.641,458.154h1.279v8.973h-1.279v-8.973Z" fill="#fff" />
+          <path d="M724.529,463.799l-2.049-.024v-1.171h3.401c.013.744-.024,1.427-.256,2.109-.634,1.902-2.438,2.768-4.426,2.5-1.524-.195-2.792-1.171-3.341-2.621-.475-1.269-.475-2.684.037-3.926.744-1.793,2.499-2.816,4.426-2.635,1.182.11,2.207.672,2.914,1.622l-1.135.829c-.512-.805-1.341-1.231-2.268-1.231-1.207-.013-2.243.671-2.694,1.792-.78,1.951-.109,4.486,2.109,4.926.817.158,1.646.037,2.329-.439.536-.414.828-.999.951-1.73Z" fill="#fff" />
+          <path d="M735.724,458.166v8.961h-2.134l-3.719-7.668c-.109-.049-.182.023-.17.133v7.523l-1.28.012v-8.973h2.134l3.682,7.57c.049.098.086.122.158.109.073-.012.086-.061.086-.17v-7.51l1.243.012Z" fill="#fff" />
+          <path d="M742.786,463.031h-2.89l-.012,2.913h4.998v1.183h-6.266v-8.973h6.096l.012,1.182h-4.828l-.012,2.523h2.901v1.172Z" fill="#fff" />
+          <path d="M754.311,467.115l-1.488.023-1.914-3.719-2.193-.012v3.73h-1.293v-8.973h4.108c.464,0,.927.135,1.329.28.939.378,1.451,1.207,1.5,2.194.049,1.316-.744,2.378-2.086,2.646l2.037,3.828ZM753.055,460.738c.036-.658-.354-1.134-.927-1.305l-.72-.121h-2.693v2.938h2.535c.365-.023.731-.061,1.061-.207.512-.231.78-.731.744-1.305Z" fill="#fff" />
+        </g>
+        </svg>
+<svg class="lg zC" viewBox="655.19 487.06 122.46 15.54" style="left:45.4996cqw;width:8.5038cqw;top:calc(50cqh + 2.5735cqw);"><g>
+            <path d="M659.521,494.406c-1.098.462-2.485.074-3.327-.727l.628-.678c.445.455.957.744,1.568.785.701.049,1.304-.265,1.287-.9-.016-.594-.618-.768-1.131-.957l-1.263-.463c-.471-.239-.784-.635-.842-1.147-.091-.875.38-1.634,1.238-1.882.933-.272,1.907.008,2.675.652l-.628.686c-.503-.521-1.164-.752-1.824-.57-.313.082-.528.33-.578.603-.123.751.669.991,1.354,1.214.966.305,1.898.644,1.89,1.799-.008.711-.388,1.312-1.048,1.586Z" fill="#fff" />
+            <path d="M665.661,493.316l.52.586c-.594.561-1.387.768-2.188.668-.816-.107-1.485-.61-1.758-1.387-.248-.742-.198-1.535.148-2.229.545-1.082,1.898-1.478,2.931-.842.784.486,1.057,1.494,1.007,2.418h-3.393c.066.496.33.926.776,1.173.66.289,1.395.182,1.956-.388ZM665.479,491.813c-.058-.38-.182-.71-.454-.958-.306-.288-.71-.371-1.147-.264-.536.133-.892.678-.949,1.222h2.551Z" fill="#fff" />
+            <path d="M670.53,494.422c-.354.166-.743.207-1.131.148-.504-.082-.875-.494-.875-1.023l-.017-2.922h-.734l-.009-.719h.743v-1.312l.817-.354v1.659l1.205.008v.719l-1.205.008.008,2.717c0,.271.215.471.463.486.247.017.462-.058.727-.165l.008.751Z" fill="#fff" />
+            <path d="M679.866,490.146c.536,1.436.182,3.352-1.321,4.045-.38.156-.775.305-1.205.305l-2.286.018v-6.084h2.171c.371,0,.718.107,1.064.197.727.265,1.305.776,1.577,1.52ZM679.123,490.725c-.206-.852-.916-1.396-1.8-1.462-.454-.032-.899-.017-1.403-.017v4.449l1.147-.008c.231,0,.487-.041.71-.107,1.247-.347,1.635-1.659,1.346-2.855Z" fill="#fff" />
+            <path d="M685.23,493.316l.52.586c-.594.561-1.387.768-2.188.668-.816-.107-1.485-.61-1.758-1.387-.248-.742-.198-1.535.148-2.229.545-1.082,1.898-1.478,2.931-.842.784.486,1.057,1.494,1.007,2.418h-3.393c.066.496.33.926.776,1.173.66.289,1.395.182,1.956-.388ZM685.049,491.813c-.058-.38-.182-.71-.454-.958-.306-.288-.71-.371-1.147-.264-.536.133-.892.678-.949,1.222h2.551Z" fill="#fff" />
+            <path d="M690.025,494.463c-.883.289-1.808.1-2.592-.429l.445-.677c.347.256.702.438,1.123.504.562.09,1.147-.092,1.147-.578.017-.875-2.122-.553-2.493-1.692-.231-.693.115-1.396.801-1.643.751-.28,1.635-.099,2.336.339l-.445.685c-.504-.354-1.106-.577-1.635-.354-.182.074-.297.247-.306.412-.041.454.454.578.858.719l.949.322c.463.156.727.553.76,1.031.033.627-.313,1.164-.949,1.361Z" fill="#fff" />
+            <path d="M693.277,488.058c.322,0,.586.265.586.586,0,.331-.264.595-.586.595-.33,0-.595-.264-.595-.595,0-.321.265-.586.595-.586ZM692.856,494.505h.825v-4.599h-.825v4.599Z" fill="#fff" />
+            <path d="M696.776,495.496c.496-.018.941-.018,1.379-.125.603-.148.908-.635.925-1.246v-.123c.008-.033-.115-.018-.148,0-.339.363-.801.553-1.296.561-.784.059-1.479-.355-1.8-1.081-.611-1.337-.148-3.294,1.304-3.616.719-.156,1.354.025,1.907.537.041-.166.041-.297.041-.496h.817v4.021c0,.974-.371,1.767-1.329,2.063-.553.174-1.122.199-1.709.182l-.091-.676ZM699.088,492.994v-1.668l-.23-.271c-.389-.463-1.024-.611-1.594-.404-.908.321-1.057,1.602-.677,2.451.206.454.627.71,1.114.719.645,0,1.023-.322,1.387-.826Z" fill="#fff" />
+            <path d="M703,490.906c-.289.271-.396.651-.396,1.023l-.008,2.575-.817-.009v-4.581l.809-.017.017.52c.083.009.157-.049.223-.115.38-.412.958-.545,1.511-.471.867.116,1.354.875,1.354,1.709v2.955h-.81l-.017-2.889c0-.338-.173-.701-.454-.867-.429-.256-1.031-.182-1.411.166Z" fill="#fff" />
+            <path d="M710.89,493.316c.348,0,.636.28.636.635,0,.348-.288.628-.636.628-.354,0-.635-.28-.635-.628,0-.354.28-.635.635-.635Z" fill="#fff" />
+            <path d="M720.077,493.076l-2.922-.008-.537,1.428h-.858l2.328-6.075h1.073l2.336,6.075h-.892l-.528-1.42ZM719.771,492.268l-1.089-2.938c-.033-.042-.1-.05-.141-.009l-1.098,2.947h2.336-.009Z" fill="#fff" />
+            <path d="M723.849,494.496l-.809.009v-4.59l.809-.017.009.496c.082.016.156-.042.214-.107.413-.479,1.073-.587,1.651-.363l-.148.842c-.339-.148-.693-.189-1.04-.059-.521.215-.669.867-.677,1.453l-.009,2.336Z" fill="#fff" />
+            <path d="M729.75,494.422c-.354.166-.743.207-1.131.148-.504-.082-.875-.494-.875-1.023l-.017-2.922h-.734l-.009-.719h.743v-1.312l.817-.354v1.659l1.205.008v.719l-1.205.008.008,2.717c0,.271.215.471.463.486.247.017.462-.058.727-.165l.008.751Z" fill="#fff" />
+            <path d="M739.086,490.146c.536,1.436.182,3.352-1.321,4.045-.38.156-.775.305-1.205.305l-2.286.018v-6.084h2.171c.371,0,.718.107,1.064.197.727.265,1.305.776,1.577,1.52ZM738.343,490.725c-.206-.852-.916-1.396-1.8-1.462-.454-.032-.899-.017-1.403-.017v4.449l1.147-.008c.231,0,.487-.041.71-.107,1.247-.347,1.635-1.659,1.346-2.855Z" fill="#fff" />
+            <path d="M741.627,488.058c.322,0,.586.265.586.586,0,.331-.264.595-.586.595-.33,0-.595-.264-.595-.595,0-.321.265-.586.595-.586ZM741.206,494.505h.825v-4.599h-.825v4.599Z" fill="#fff" />
+            <path d="M744.896,494.496l-.81.009v-4.59l.81-.017.008.496c.083.016.157-.042.215-.107.413-.479,1.073-.587,1.651-.363l-.149.842c-.338-.148-.693-.189-1.04-.059-.52.215-.668.867-.677,1.453l-.008,2.336Z" fill="#fff" />
+            <path d="M751.713,493.316l.521.586c-.595.561-1.387.768-2.188.668-.817-.107-1.486-.61-1.759-1.387-.247-.742-.197-1.535.149-2.229.544-1.082,1.898-1.478,2.93-.842.784.486,1.057,1.494,1.008,2.418h-3.394c.066.496.331.926.776,1.173.66.289,1.396.182,1.956-.388ZM751.531,491.813c-.058-.38-.182-.71-.453-.958-.306-.288-.71-.371-1.147-.264-.537.133-.892.678-.95,1.222h2.551Z" fill="#fff" />
+            <path d="M754.998,493.176c.239.421.651.636,1.073.668.462.033.85-.182,1.155-.553l.595.57c-.554.586-1.346.842-2.155.693-.693-.133-1.263-.578-1.535-1.238-.354-.842-.272-1.816.239-2.576.388-.578,1.016-.883,1.659-.924.702-.033,1.354.23,1.8.76l-.61.535c-.306-.379-.71-.586-1.173-.544-.512.05-.94.354-1.139.833-.239.562-.231,1.23.091,1.775Z" fill="#fff" />
+            <path d="M762.039,494.422c-.355.166-.743.207-1.131.148-.504-.082-.875-.494-.875-1.023l-.017-2.922h-.735l-.008-.719h.743v-1.312l.816-.354v1.659l1.206.008v.719l-1.206.008.009,2.717c0,.271.215.471.462.486.248.017.463-.058.727-.165l.009.751Z" fill="#fff" />
+            <path d="M764.2,488.058c.322,0,.587.265.587.586,0,.331-.265.595-.587.595-.33,0-.594-.264-.594-.595,0-.321.264-.586.594-.586ZM763.779,494.505h.826v-4.599h-.826v4.599Z" fill="#fff" />
+            <path d="M770.928,492.953c-.264,1.031-1.147,1.65-2.18,1.643-.924-.008-1.733-.496-2.063-1.371-.52-1.369.041-3.037,1.544-3.359,1.098-.223,2.18.248,2.592,1.297.231.568.265,1.18.107,1.791ZM768.814,493.853c.528-.017.975-.306,1.197-.768.272-.562.264-1.238-.017-1.792-.265-.512-.768-.775-1.338-.742-.528.033-.966.347-1.18.842-.231.537-.224,1.147.017,1.676.239.512.726.809,1.32.784Z" fill="#fff" />
+            <path d="M773.956,490.906c-.288.271-.396.651-.396,1.023l-.009,2.575-.817-.009v-4.581l.81-.017.017.52c.082.009.156-.049.223-.115.38-.412.957-.545,1.511-.471.866.116,1.354.875,1.354,1.709v2.955h-.809l-.017-2.889c0-.338-.174-.701-.454-.867-.43-.256-1.032-.182-1.412.166Z" fill="#fff" />
+            <path d="M670.13,499.508c.43,1.08,1.635,1.551,2.649,1.039.289-.141.504-.363.702-.635l.776.527c-.545.735-1.379,1.14-2.295,1.156-1.312.008-2.419-.809-2.782-2.064-.239-.792-.206-1.643.107-2.418.487-1.181,1.643-1.874,2.914-1.775.817.059,1.535.438,2.014,1.09l-.768.553c-.354-.545-.925-.833-1.56-.816-.793.024-1.453.486-1.751,1.222-.272.677-.28,1.428-.008,2.122Z" fill="#fff" />
+            <path d="M676.741,501.496l-.81.009v-4.59l.81-.017.008.496c.083.016.157-.042.215-.107.413-.479,1.073-.587,1.651-.363l-.149.842c-.338-.148-.693-.189-1.04-.059-.52.215-.668.867-.677,1.453l-.008,2.336Z" fill="#fff" />
+            <path d="M683.559,500.316l.521.586c-.595.561-1.387.768-2.188.668-.817-.107-1.486-.61-1.759-1.387-.247-.742-.197-1.535.149-2.229.544-1.082,1.898-1.478,2.93-.842.784.486,1.057,1.494,1.008,2.418h-3.394c.066.496.331.926.776,1.173.66.289,1.396.182,1.956-.388ZM683.377,498.813c-.058-.38-.182-.71-.453-.958-.306-.288-.71-.371-1.147-.264-.537.133-.892.678-.95,1.222h2.551Z" fill="#fff" />
+            <path d="M686.935,501.555c-.743-.133-1.197-.719-1.173-1.445.058-1.436,1.767-1.584,3.046-1.395.066-.595-.305-1.064-.891-1.139-.545-.066-1.065.057-1.594.288l-.231-.702c.76-.338,1.594-.453,2.395-.23.66.182,1.131.719,1.131,1.428l.017,3.137-.817.009v-.462c-.066.008-.174.041-.215.082-.445.43-1.057.537-1.667.43ZM688.816,500.184v-.842c-.899-.141-2.221-.141-2.254.752-.017.346.198.652.554.75.677.19,1.263-.115,1.7-.66Z" fill="#fff" />
+            <path d="M694.008,501.422c-.354.166-.743.207-1.131.148-.504-.082-.875-.494-.875-1.023l-.017-2.922h-.734l-.009-.719h.743v-1.312l.817-.354v1.659l1.205.008v.719l-1.205.008.008,2.717c0,.271.215.471.463.486.247.017.462-.058.727-.165l.008.751Z" fill="#fff" />
+            <path d="M696.17,495.058c.322,0,.586.265.586.586,0,.331-.264.595-.586.595-.33,0-.595-.264-.595-.595,0-.321.265-.586.595-.586ZM695.749,501.505h.825v-4.599h-.825v4.599Z" fill="#fff" />
+            <path d="M701.824,496.906l.825.009-1.618,4.59h-1.131l-1.602-4.59.858-.009,1.264,3.789.123.018,1.28-3.807Z" fill="#fff" />
+            <path d="M707.609,500.316l.521.586c-.595.561-1.387.768-2.188.668-.817-.107-1.486-.61-1.759-1.387-.247-.742-.197-1.535.149-2.229.544-1.082,1.898-1.478,2.93-.842.784.486,1.057,1.494,1.008,2.418h-3.394c.066.496.331.926.776,1.173.66.289,1.396.182,1.956-.388ZM707.428,498.813c-.058-.38-.182-.71-.453-.958-.306-.288-.71-.371-1.147-.264-.537.133-.892.678-.95,1.222h2.551Z" fill="#fff" />
+            <path d="M717.465,497.229c.009,1.23-.924,1.874-2.113,1.874h-1.543v2.402h-.875v-6.075h2.658c.271,0,.553.09.809.164.693.273,1.064.9,1.073,1.635h-.009ZM716.367,497.897c.289-.38.297-.892.033-1.271-.223-.231-.521-.371-.858-.371l-1.733-.017v2.039l1.617-.008c.355,0,.686-.107.941-.372Z" fill="#fff" />
+            <path d="M719.965,501.496l-.809.009v-4.59l.809-.017.009.496c.082.016.156-.042.214-.107.413-.479,1.073-.587,1.651-.363l-.148.842c-.339-.148-.693-.189-1.04-.059-.521.215-.669.867-.677,1.453l-.009,2.336Z" fill="#fff" />
+            <path d="M727.634,499.953c-.265,1.031-1.147,1.65-2.18,1.643-.925-.008-1.733-.496-2.063-1.371-.521-1.369.041-3.037,1.543-3.359,1.099-.223,2.18.248,2.593,1.297.23.568.264,1.18.107,1.791ZM725.521,500.853c.528-.017.974-.306,1.196-.768.272-.562.265-1.238-.017-1.792-.264-.512-.768-.775-1.337-.742-.528.033-.966.347-1.181.842-.23.537-.223,1.147.017,1.676.239.512.727.809,1.321.784Z" fill="#fff" />
+            <path d="M729.506,500.432c-.462-1.123-.239-2.716.793-3.344.686-.412,1.585-.371,2.204.125.107.082.173.14.28.164v-2.171l.817-.339.009,6.629-.817.009-.009-.545c-.091.024-.156.058-.214.124-.372.363-.867.52-1.396.512-.751-.017-1.379-.454-1.668-1.164ZM731.884,500.77c.396-.123.669-.429.899-.759l.009-1.651c-.289-.512-.842-.842-1.444-.792-.545.041-.967.362-1.132.884-.156.486-.156,1.006,0,1.494.224.709.934,1.064,1.668.824Z" fill="#fff" />
+            <path d="M739.378,496.906v2.832c0,.793-.412,1.52-1.188,1.75-.941.281-2.138.066-2.526-.9-.082-.205-.173-.461-.173-.685l-.009-2.997h.817l.017,2.98c.009.603.495.982,1.065.966.338-.009.668-.041.899-.313.157-.182.28-.463.28-.727l.009-2.906h.809Z" fill="#fff" />
+            <path d="M742.168,500.176c.239.421.651.636,1.073.668.462.033.85-.182,1.155-.553l.595.57c-.554.586-1.346.842-2.155.693-.693-.133-1.263-.578-1.535-1.238-.354-.842-.272-1.816.239-2.576.388-.578,1.016-.883,1.659-.924.702-.033,1.354.23,1.8.76l-.61.535c-.306-.379-.71-.586-1.173-.544-.512.05-.94.354-1.139.833-.239.562-.231,1.23.091,1.775Z" fill="#fff" />
+            <path d="M749.208,501.422c-.354.166-.743.207-1.131.148-.504-.082-.875-.494-.875-1.023l-.017-2.922h-.734l-.009-.719h.743v-1.312l.817-.354v1.659l1.205.008v.719l-1.205.008.008,2.717c0,.271.215.471.463.486.247.017.462-.058.727-.165l.008.751Z" fill="#fff" />
+            <path d="M751.37,495.058c.322,0,.586.265.586.586,0,.331-.264.595-.586.595-.33,0-.595-.264-.595-.595,0-.321.265-.586.595-.586ZM750.949,501.505h.825v-4.599h-.825v4.599Z" fill="#fff" />
+            <path d="M758.098,499.953c-.264,1.031-1.147,1.65-2.18,1.643-.924-.008-1.733-.496-2.063-1.371-.52-1.369.041-3.037,1.544-3.359,1.098-.223,2.18.248,2.592,1.297.231.568.265,1.18.107,1.791ZM755.984,500.853c.528-.017.975-.306,1.197-.768.272-.562.264-1.238-.017-1.792-.265-.512-.768-.775-1.338-.742-.528.033-.966.347-1.18.842-.231.537-.224,1.147.017,1.676.239.512.726.809,1.32.784Z" fill="#fff" />
+            <path d="M761.126,497.906c-.288.271-.396.651-.396,1.023l-.009,2.575-.817-.009v-4.581l.81-.017.017.52c.082.009.156-.049.223-.115.38-.412.957-.545,1.511-.471.866.116,1.354.875,1.354,1.709v2.955h-.809l-.017-2.889c0-.338-.174-.701-.454-.867-.43-.256-1.032-.182-1.412.166Z" fill="#fff" />
+          </g>
+          </svg>
+<div class="lk zC zC3" style="left:57.9196cqw;width:7.1272cqw;top:calc(50cqh + 2.5915cqw);aspect-ratio:102.63099999999997/16.86348875920453"><div class="ctx">+54 387 524 1879<br>milly@gomezpaz.com</div><a href="tel:+543875241879" style="position:absolute;left:0;right:0;top:0%;height:50%"></a><a href="mailto:milly@gomezpaz.com,martifreytes@gmail.com" style="position:absolute;left:0;right:0;top:50%;height:50%"></a></div>
+<svg class="lg zC zC1" viewBox="503.15 486.85 88.99 15.75" style="left:34.9408cqw;width:6.1797cqw;top:calc(50cqh + 2.5590cqw);"><g>
+            <path d="M505.749,490.633v3.863h-.825v-3.863l-.776-.008v-.719h.776c-.033-.883.008-1.815.925-2.006.363-.074.71-.074,1.057.05v.718c-.256-.082-.487-.131-.735-.074-.23.059-.404.281-.412.529l-.017.783h.999l.008.719-.999.008Z" fill="#fff" />
+            <path d="M509.199,494.496l-.81.009v-4.59l.81-.017.008.496c.083.016.157-.042.215-.107.413-.479,1.073-.587,1.651-.363l-.149.842c-.338-.148-.693-.189-1.04-.059-.52.215-.668.867-.677,1.453l-.008,2.336Z" fill="#fff" />
+            <path d="M516.867,492.953c-.264,1.031-1.147,1.65-2.18,1.643-.924-.008-1.733-.496-2.063-1.371-.52-1.369.041-3.037,1.544-3.359,1.098-.223,2.18.248,2.592,1.297.231.568.265,1.18.107,1.791ZM514.754,493.853c.528-.017.975-.306,1.197-.768.272-.562.264-1.238-.017-1.792-.265-.512-.768-.775-1.338-.742-.528.033-.966.347-1.18.842-.231.537-.224,1.147.017,1.676.239.512.726.809,1.32.784Z" fill="#fff" />
+            <path d="M522.446,494.496l-.809.009-.008-2.634c0-.223-.033-.453-.091-.652-.107-.404-.446-.627-.859-.627-.792-.008-1.188.595-1.188,1.362l-.008,2.551-.81-.009v-4.59h.81l.008.488c0,.041.141.008.174-.033.321-.446.866-.604,1.411-.529.826.116,1.082.727,1.123.711l.132-.025c.265-.404.669-.611,1.14-.686.512-.065,1.057.033,1.428.43.347.371.495.883.495,1.403l.009,2.831h-.826v-2.641c0-.248-.049-.512-.132-.735-.132-.363-.462-.528-.834-.528-.809,0-1.164.604-1.164,1.403v2.501Z" fill="#fff" />
+            <path d="M533.3,491.187c-.024.198.71.115,1.098.743.496.801.19,1.84-.644,2.277-.313.158-.627.273-.99.273l-2.534.016v-6.075l2.418.009c.281,0,.545.082.793.173.553.231.851.735.825,1.329-.058,1.023-.957,1.18-.966,1.255ZM533.159,490.633c.289-.305.322-.768.083-1.09-.215-.238-.512-.321-.834-.33l-1.312-.008v1.717h1.264c.297,0,.569-.09.8-.289ZM533.729,492.945c.082-.34.033-.678-.215-.917-.239-.231-.569-.33-.908-.33l-1.511-.009v2.015h1.453c.52-.009,1.057-.265,1.181-.759Z" fill="#fff" />
+            <path d="M540.241,489.906v2.832c0,.793-.412,1.52-1.188,1.75-.941.281-2.138.066-2.526-.9-.082-.205-.173-.461-.173-.685l-.009-2.997h.817l.017,2.98c.009.603.495.982,1.065.966.338-.009.668-.041.899-.313.157-.182.28-.463.28-.727l.009-2.906h.809Z" fill="#fff" />
+            <path d="M545.532,493.316l.52.586c-.594.561-1.387.768-2.188.668-.816-.107-1.485-.61-1.758-1.387-.248-.742-.198-1.535.148-2.229.545-1.082,1.898-1.478,2.931-.842.784.486,1.057,1.494,1.007,2.418h-3.393c.066.496.33.926.776,1.173.66.289,1.395.182,1.956-.388ZM545.351,491.813c-.058-.38-.182-.71-.454-.958-.306-.288-.71-.371-1.147-.264-.536.133-.892.678-.949,1.222h2.551Z" fill="#fff" />
+            <path d="M549.122,490.906c-.289.271-.396.651-.396,1.023l-.008,2.575-.817-.009v-4.581l.809-.017.017.52c.083.009.157-.049.223-.115.38-.412.958-.545,1.511-.471.867.116,1.354.875,1.354,1.709v2.955h-.81l-.017-2.889c0-.338-.173-.701-.454-.867-.429-.256-1.031-.182-1.411.166Z" fill="#fff" />
+            <path d="M557.954,492.953c-.265,1.031-1.147,1.65-2.18,1.643-.925-.008-1.733-.496-2.063-1.371-.521-1.369.041-3.037,1.543-3.359,1.099-.223,2.18.248,2.593,1.297.23.568.264,1.18.107,1.791ZM555.841,493.853c.528-.017.974-.306,1.196-.768.272-.562.265-1.238-.017-1.792-.264-.512-.768-.775-1.337-.742-.528.033-.966.347-1.181.842-.23.537-.223,1.147.017,1.676.239.512.727.809,1.321.784Z" fill="#fff" />
+            <path d="M562.188,494.463c-.883.289-1.808.1-2.592-.429l.445-.677c.347.256.702.438,1.123.504.562.09,1.147-.092,1.147-.578.017-.875-2.122-.553-2.493-1.692-.231-.693.115-1.396.801-1.643.751-.28,1.635-.099,2.336.339l-.445.685c-.504-.354-1.106-.577-1.635-.354-.182.074-.297.247-.306.412-.041.454.454.578.858.719l.949.322c.463.156.727.553.76,1.031.033.627-.313,1.164-.949,1.361Z" fill="#fff" />
+            <path d="M571.745,493.076l-2.922-.008-.537,1.428h-.858l2.328-6.075h1.073l2.336,6.075h-.892l-.528-1.42ZM571.439,492.268l-1.089-2.938c-.033-.042-.1-.05-.141-.009l-1.098,2.947h2.336-.009Z" fill="#fff" />
+            <path d="M575.302,488.058c.322,0,.587.265.587.586,0,.331-.265.595-.587.595-.33,0-.594-.264-.594-.595,0-.321.264-.586.594-.586ZM574.881,494.505h.826v-4.599h-.826v4.599Z" fill="#fff" />
+            <path d="M578.571,494.496l-.81.009v-4.59l.81-.017.008.496c.083.016.157-.042.215-.107.413-.479,1.073-.587,1.651-.363l-.149.842c-.338-.148-.693-.189-1.04-.059-.52.215-.668.867-.677,1.453l-.008,2.336Z" fill="#fff" />
+            <path d="M585.389,493.316l.52.586c-.594.561-1.387.768-2.188.668-.816-.107-1.485-.61-1.758-1.387-.248-.742-.198-1.535.148-2.229.545-1.082,1.898-1.478,2.931-.842.784.486,1.057,1.494,1.007,2.418h-3.393c.066.496.33.926.776,1.173.66.289,1.395.182,1.956-.388ZM585.207,491.813c-.058-.38-.182-.71-.454-.958-.306-.288-.71-.371-1.147-.264-.536.133-.892.678-.949,1.222h2.551Z" fill="#fff" />
+            <path d="M590.185,494.463c-.884.289-1.809.1-2.593-.429l.446-.677c.347.256.701.438,1.122.504.562.09,1.147-.092,1.147-.578.017-.875-2.121-.553-2.492-1.692-.231-.693.115-1.396.8-1.643.752-.28,1.635-.099,2.337.339l-.446.685c-.503-.354-1.105-.577-1.634-.354-.182.074-.298.247-.306.412-.042.454.454.578.858.719l.949.322c.462.156.727.553.76,1.031.032.627-.314,1.164-.949,1.361Z" fill="#fff" />
+            <path d="M525.484,496.338c-.066-.083-.148-.033-.157.049l-1.832,5.102h-.331l-1.898-5.176c-.008-.033-.107-.033-.132.008v5.176h-.809v-6.075h1.411l1.527,4.152c.024.041.058.041.082.041.033,0,.075-.017.083-.083l1.478-4.11h1.396v6.075h-.817v-5.158Z" fill="#fff" />
+            <path d="M528.81,495.058c.322,0,.586.265.586.586,0,.331-.264.595-.586.595-.33,0-.595-.264-.595-.595,0-.321.265-.586.595-.586ZM528.389,501.505h.825v-4.599h-.825v4.599Z" fill="#fff" />
+            <path d="M531.269,501.496v-6.29l.817-.339v6.629h-.817Z" fill="#fff" />
+            <path d="M534.967,501.555c-.743-.133-1.197-.719-1.172-1.445.058-1.436,1.767-1.584,3.046-1.395.066-.595-.306-1.064-.892-1.139-.545-.066-1.064.057-1.593.288l-.231-.702c.76-.338,1.593-.453,2.394-.23.661.182,1.131.719,1.131,1.428l.017,3.137-.817.009v-.462c-.065.008-.173.041-.214.082-.446.43-1.057.537-1.668.43ZM536.849,500.184v-.842c-.899-.141-2.22-.141-2.253.752-.017.346.198.652.553.75.677.19,1.263-.115,1.7-.66Z" fill="#fff" />
+            <path d="M540.761,497.906c-.288.271-.396.651-.396,1.023l-.009,2.575-.817-.009v-4.581l.81-.017.017.52c.082.009.156-.049.223-.115.38-.412.957-.545,1.511-.471.866.116,1.354.875,1.354,1.709v2.955h-.809l-.017-2.889c0-.338-.174-.701-.454-.867-.43-.256-1.032-.182-1.412.166Z" fill="#fff" />
+            <path d="M551.351,498.187c-.024.198.71.115,1.098.743.496.801.19,1.84-.644,2.277-.313.158-.627.273-.99.273l-2.534.016v-6.075l2.418.009c.281,0,.545.082.793.173.553.231.851.735.825,1.329-.058,1.023-.957,1.18-.966,1.255ZM551.21,497.633c.289-.305.322-.768.083-1.09-.215-.238-.512-.321-.834-.33l-1.312-.008v1.717h1.264c.297,0,.569-.09.8-.289ZM551.78,499.945c.082-.34.033-.678-.215-.917-.239-.231-.569-.33-.908-.33l-1.511-.009v2.015h1.453c.52-.009,1.057-.265,1.181-.759Z" fill="#fff" />
+            <path d="M555.403,501.555c-.743-.133-1.197-.719-1.173-1.445.058-1.436,1.767-1.584,3.046-1.395.066-.595-.305-1.064-.891-1.139-.545-.066-1.065.057-1.594.288l-.231-.702c.76-.338,1.594-.453,2.395-.23.66.182,1.131.719,1.131,1.428l.017,3.137-.817.009v-.462c-.066.008-.174.041-.215.082-.445.43-1.057.537-1.667.43ZM557.285,500.184v-.842c-.899-.141-2.221-.141-2.254.752-.017.346.198.652.554.75.677.19,1.263-.115,1.7-.66Z" fill="#fff" />
+            <path d="M562.402,501.463c-.884.289-1.809.1-2.593-.429l.446-.677c.347.256.701.438,1.122.504.562.09,1.147-.092,1.147-.578.017-.875-2.121-.553-2.492-1.692-.231-.693.115-1.396.8-1.643.752-.28,1.635-.099,2.337.339l-.446.685c-.503-.354-1.105-.577-1.634-.354-.182.074-.298.247-.306.412-.042.454.454.578.858.719l.949.322c.462.156.727.553.76,1.031.032.627-.314,1.164-.949,1.361Z" fill="#fff" />
+            <path d="M568.477,500.316l.521.586c-.595.561-1.387.768-2.188.668-.817-.107-1.486-.61-1.759-1.387-.247-.742-.197-1.535.149-2.229.544-1.082,1.898-1.478,2.93-.842.784.486,1.057,1.494,1.008,2.418h-3.394c.066.496.331.926.776,1.173.66.289,1.396.182,1.956-.388ZM568.295,498.813c-.058-.38-.182-.71-.453-.958-.306-.288-.71-.371-1.147-.264-.537.133-.892.678-.95,1.222h2.551Z" fill="#fff" />
+            <path d="M570.911,500.432c-.462-1.123-.239-2.716.792-3.344.686-.412,1.585-.371,2.204.125.107.082.174.14.281.164v-2.171l.817-.339.008,6.629-.817.009-.008-.545c-.091.024-.157.058-.215.124-.371.363-.867.52-1.396.512-.751-.017-1.378-.454-1.667-1.164ZM573.288,500.77c.396-.123.669-.429.9-.759l.008-1.651c-.289-.512-.842-.842-1.444-.792-.545.041-.966.362-1.131.884-.157.486-.157,1.006,0,1.494.223.709.933,1.064,1.667.824Z" fill="#fff" />
+          </g>
+        </svg>
+</div>
+<div class="dV">
+<div class="mm" style="right:calc(50cqw + 3.5897cqw);top:calc(50cqh + -12.5641cqw);font-size:3.8808cqw">MILAGROS</div>
+<div class="mm" style="left:calc(50cqw + 3.5897cqw);top:calc(50cqh + -12.5641cqw);font-size:3.8808cqw">MARTINA</div>
+<div class="mm2" style="left:0;right:0;top:calc(50cqh + -5.0513cqw);font-size:2.2176cqw"><a class="nl" href="https://www.instagram.com/millygomezpaz/" target="_blank" rel="noopener">M.&nbsp;GÓMEZ&nbsp;PAZ</a><br><a class="nl" href="https://www.instagram.com/martinafreytes/" target="_blank" rel="noopener">M.&nbsp;FREYTES</a></div>
+
+<div class="ctl" style="left:4.2500cqw;top:4.8615cqw">CREATIVE LAB</div>
+<a class="ctl" href="#contact" style="margin-right:-.14em;right:4.1793cqw;top:4.8615cqw">ABOUT US</a>
+<svg class="lg hideT" style="left:31.5862cqw;width:17.2518cqw;top:calc(50cqh + -13.8092cqw);" viewBox="123.19 368.14 67.28 17.11"><g>
+        <path d="M129.498,373.641c-2.721,0-3.873,2.514-3.873,4.658,0,2.161.832,4.674,3.713,4.674,2.049,0,3.729-1.473,3.729-3.617h-3.729v-1.28h5.171v5.954h-.961l-.48-1.616h-.031c-.864,1.2-1.938,1.84-3.698,1.84-3.329,0-5.153-2.496-5.153-5.954s2.145-5.938,5.313-5.938c2.897,0,4.418,1.505,4.818,3.682h-1.44c-.336-1.633-1.649-2.401-3.378-2.401Z" fill="#fff" />
+        <path d="M138.297,378.299c0-3.441,2.24-5.938,5.602-5.938s5.603,2.497,5.603,5.938-2.241,5.954-5.603,5.954-5.602-2.513-5.602-5.954ZM148.061,378.299c0-2.465-1.28-4.658-4.162-4.658s-4.161,2.193-4.161,4.658,1.28,4.674,4.161,4.674,4.162-2.209,4.162-4.674ZM145.563,369.144l-1.169,2.032h-1.04l.688-2.032h1.521Z" fill="#fff" />
+        <path d="M153.448,372.585h1.969l3.586,9.508h.032l3.585-9.508h1.969v11.444h-1.44v-9.412h-.032l-3.457,9.412h-1.281l-3.457-9.412h-.032v9.412h-1.44v-11.444Z" fill="#fff" />
+        <path d="M176.283,377.467v1.28h-5.875v4.002h6.835v1.28h-8.275v-11.444h8.083v1.28h-6.643v3.602h5.875Z" fill="#fff" />
+        <path d="M189.308,372.585v1.28l-6.979,8.852v.032h7.139v1.28h-8.899v-1.28l6.979-8.852v-.032h-6.658v-1.28h8.419Z" fill="#fff" />
+      </g>
+      </svg>
+<svg class="lg hideT" style="left:56.9515cqw;width:8.6941cqw;top:calc(50cqh + -12.9269cqw);" viewBox="222.11 371.58 33.91 13.44"><g>
+        <path d="M223.111,372.585h4.546c2.097,0,3.714.928,3.714,3.329s-1.617,3.329-3.714,3.329h-3.105v4.786h-1.44v-11.444ZM224.552,377.963h3.266c1.425,0,2.113-.656,2.113-2.049s-.688-2.049-2.113-2.049h-3.266v4.098Z" fill="#fff" />
+        <path d="M235.704,381.164l-1.009,2.865h-1.488l4.226-11.444h1.601l4.21,11.444h-1.489l-1.008-2.865h-5.042ZM240.282,379.884l-2.033-5.971h-.032l-2.032,5.971h4.098Z" fill="#fff" />
+        <path d="M254.858,372.585v1.28l-6.979,8.852v.032h7.139v1.28h-8.899v-1.28l6.979-8.852v-.032h-6.658v-1.28h8.419Z" fill="#fff" />
+      </g>
+      </svg>
+<svg class="lg hideT" style="left:38.4626cqw;width:21.6105cqw;top:calc(50cqh + -5.3085cqw);" viewBox="150.00 401.30 84.28 18.82"><g>
+        <path d="M151.006,402.417h1.046l1.903,5.049h.018l1.903-5.049h1.045v6.077h-.765v-4.997h-.017l-1.836,4.997h-.68l-1.836-4.997h-.018v4.997h-.765v-6.077Z" fill="#fff" />
+        <path d="M159.523,402.417v6.077h-.765v-6.077h.765Z" fill="#fff" />
+        <path d="M162.123,402.417v5.397h3.188v.68h-3.952v-6.077h.765Z" fill="#fff" />
+        <path d="M167.59,406.973l-.536,1.521h-.79l2.244-6.077h.85l2.235,6.077h-.79l-.536-1.521h-2.677ZM170.021,406.293l-1.079-3.17h-.018l-1.079,3.17h2.176Z" fill="#fff" />
+        <path d="M175.223,402.979c-1.445,0-2.058,1.334-2.058,2.473,0,1.147.442,2.482,1.973,2.482,1.088,0,1.979-.782,1.979-1.921h-1.979v-.681h2.745v3.162h-.511l-.255-.858h-.017c-.459.638-1.028.978-1.963.978-1.769,0-2.737-1.326-2.737-3.162s1.139-3.153,2.822-3.153c1.538,0,2.346.8,2.558,1.955h-.765c-.179-.867-.875-1.274-1.793-1.274Z" fill="#fff" />
+        <path d="M179.616,402.417h2.465c1.198,0,2.006.646,2.006,1.726,0,.875-.417,1.359-1.088,1.53v.017c1.352.264.858,2.651,1.173,2.754v.051h-.824c-.264-.255.314-2.456-1.224-2.456h-1.743v2.456h-.765v-6.077ZM180.381,405.358h1.521c.629,0,1.42-.077,1.42-1.131s-.791-1.13-1.42-1.13h-1.521v2.261Z" fill="#fff" />
+        <path d="M185.447,405.451c0-1.827,1.19-3.153,2.975-3.153s2.975,1.326,2.975,3.153-1.189,3.162-2.975,3.162-2.975-1.335-2.975-3.162ZM190.632,405.451c0-1.309-.68-2.473-2.21-2.473s-2.21,1.164-2.21,2.473.681,2.482,2.21,2.482,2.21-1.173,2.21-2.482Z" fill="#fff" />
+        <path d="M197.433,406.905c0,.884-.654,1.708-2.193,1.708-1.436,0-2.55-.765-2.635-2.159h.766c.085.833.595,1.479,1.869,1.479,1.055,0,1.429-.484,1.429-1.028,0-.833-.451-.986-1.811-1.301-.909-.213-1.997-.527-1.997-1.708,0-.961.739-1.599,2.082-1.599,1.292,0,2.192.663,2.295,1.921h-.766c-.11-.815-.569-1.24-1.529-1.24-.858,0-1.317.331-1.317.833,0,.807.654.918,1.547,1.139,1.368.34,2.261.569,2.261,1.955Z" fill="#fff" />
+        <path d="M202.091,403.862c0,.323-.204.493-.459.493-.314,0-.476-.264-.476-.663,0-.451.187-1.173.85-1.292v.425c-.264.06-.425.289-.425.604.263-.085.51.06.51.434ZM203.34,403.862c0,.323-.204.493-.459.493-.314,0-.476-.264-.476-.663,0-.451.187-1.173.85-1.292v.425c-.264.06-.425.289-.425.604.264-.085.51.06.51.434Z" fill="#fff" />
+        <path d="M204.946,402.417h1.046l1.903,5.049h.017l1.904-5.049h1.045v6.077h-.765v-4.997h-.017l-1.836,4.997h-.68l-1.836-4.997h-.018v4.997h-.765v-6.077Z" fill="#fff" />
+        <path d="M213.463,402.417v6.077h-.765v-6.077h.765Z" fill="#fff" />
+        <path d="M216.063,402.417v5.397h3.188v.68h-3.952v-6.077h.765Z" fill="#fff" />
+        <path d="M221.452,402.417v5.397h3.188v.68h-3.952v-6.077h.765Z" fill="#fff" />
+        <path d="M225.524,402.417l1.76,2.975h.017l1.768-2.975h.825l-2.219,3.587v2.49h-.765v-2.49l-2.21-3.587h.824Z" fill="#fff" />
+        <path d="M231.101,402.851c0-.323.203-.493.458-.493.315,0,.477.264.477.663,0,.45-.188,1.173-.85,1.292v-.425c.263-.06.425-.289.425-.604-.264.085-.51-.06-.51-.434ZM232.35,402.851c0-.323.204-.493.459-.493.314,0,.476.264.476.663,0,.45-.187,1.173-.85,1.292v-.425c.264-.06.425-.289.425-.604-.264.085-.51-.06-.51-.434Z" fill="#fff" />
+        <path d="M169.638,412.917h2.201c1.675,0,2.703,1.088,2.703,3.043s-1.028,3.034-2.703,3.034h-2.201v-6.077ZM170.402,418.314h1.437c1.547,0,1.938-1.165,1.938-2.354s-.392-2.362-1.938-2.362h-1.437v4.717Z" fill="#fff" />
+        <path d="M180.016,415.51v.68h-3.119v2.125h3.63v.68h-4.395v-6.077h4.292v.681h-3.527v1.912h3.119Z" fill="#fff" />
+        <path d="M186.459,417.405c0,.884-.654,1.708-2.193,1.708-1.436,0-2.549-.765-2.635-2.159h.766c.085.833.595,1.479,1.869,1.479,1.055,0,1.429-.484,1.429-1.028,0-.833-.451-.986-1.811-1.301-.909-.213-1.997-.527-1.997-1.708,0-.961.739-1.599,2.082-1.599,1.292,0,2.192.663,2.295,1.921h-.766c-.11-.815-.569-1.24-1.529-1.24-.858,0-1.317.331-1.317.833,0,.807.654.918,1.547,1.139,1.368.34,2.261.569,2.261,1.955Z" fill="#fff" />
+        <path d="M188.797,412.917v6.077h-.765v-6.077h.765Z" fill="#fff" />
+        <path d="M193.268,413.479c-1.445,0-2.058,1.334-2.058,2.473,0,1.147.442,2.482,1.973,2.482,1.088,0,1.979-.782,1.979-1.921h-1.979v-.681h2.745v3.162h-.511l-.255-.858h-.017c-.459.638-1.028.978-1.963.978-1.769,0-2.737-1.326-2.737-3.162s1.139-3.153,2.822-3.153c1.538,0,2.346.8,2.558,1.955h-.765c-.179-.867-.875-1.274-1.793-1.274Z" fill="#fff" />
+        <path d="M197.662,412.917h.935l3.034,5.006h.018v-5.006h.765v6.077h-.935l-3.034-4.989h-.018v4.989h-.765v-6.077Z" fill="#fff" />
+        <path d="M208.116,415.51v.68h-3.119v2.125h3.63v.68h-4.395v-6.077h4.292v.681h-3.527v1.912h3.119Z" fill="#fff" />
+        <path d="M210.199,412.917h2.465c1.198,0,2.006.646,2.006,1.726,0,.875-.416,1.359-1.088,1.53v.017c1.352.264.858,2.651,1.173,2.754v.051h-.824c-.264-.255.314-2.456-1.224-2.456h-1.743v2.456h-.765v-6.077ZM210.964,415.858h1.521c.629,0,1.42-.077,1.42-1.131s-.791-1.13-1.42-1.13h-1.521v2.261Z" fill="#fff" />
+      </g>
+      </svg>
+<svg class="lg zC zC1" style="left:11.0362cqw;width:15.8951cqw;top:calc(50cqh + 3.5162cqw);" viewBox="43.04 435.71 61.99 15.15"><g>
+        <path d="M45.099,437.687v.504h.679v.49h-.679v3.082h-.561v-3.082h-.497v-.49h.497v-.56c0-.729.364-.918.841-.918.126,0,.272.014.398.042v.49c-.476-.035-.679.035-.679.441Z" fill="#fff" />
+        <path d="M48.564,438.113v.561h-.014c-.778-.126-1.317.421-1.317,1.184v1.905h-.561v-3.572h.561v.708h.015c.188-.47.476-.806.987-.806.133,0,.23.007.329.021Z" fill="#fff" />
+        <path d="M50.831,441.86c-1.092,0-1.751-.77-1.751-1.884s.659-1.884,1.751-1.884c1.086,0,1.744.771,1.744,1.884s-.658,1.884-1.744,1.884ZM50.831,441.37c.799,0,1.184-.63,1.184-1.394s-.385-1.394-1.184-1.394c-.805,0-1.19.63-1.19,1.394s.386,1.394,1.19,1.394Z" fill="#fff" />
+        <path d="M58.295,439.27v2.493h-.56v-2.354c0-.462-.092-.826-.651-.826s-.911.399-.911.952v2.228h-.56v-2.354c0-.462-.092-.826-.651-.826s-.911.399-.911.952v2.228h-.561v-3.572h.561v.428h.015c.188-.252.497-.525,1.036-.525.512,0,.806.217.952.616h.015c.245-.336.616-.616,1.155-.616.722,0,1.071.427,1.071,1.177Z" fill="#fff" />
+        <path d="M64.104,439.052v.015c.525.091.974.49.974,1.239,0,.925-.658,1.457-1.695,1.457h-2.156v-5.008h2.017c1.022,0,1.639.483,1.639,1.261,0,.616-.364.896-.777,1.036ZM63.341,438.849c.715,0,.911-.308.911-.763s-.267-.771-.841-.771h-1.555v1.533h1.484ZM61.856,441.202h1.59c.806,0,1.002-.427,1.002-.896,0-.539-.337-.896-.862-.896h-1.729v1.793Z" fill="#fff" />
+        <path d="M68.927,438.19v3.572h-.56v-.427h-.015c-.188.252-.567.524-1.177.524-.651,0-1.197-.356-1.197-1.176v-2.494h.561v2.354c0,.462.217.826.777.826.63,0,1.051-.398,1.051-.952v-2.228h.56Z" fill="#fff" />
+        <path d="M72.608,440.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM70.402,439.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M77.075,439.27v2.493h-.561v-2.354c0-.462-.217-.826-.777-.826-.63,0-1.051.399-1.051.952v2.228h-.561v-3.572h.561v.428h.015c.188-.252.566-.525,1.176-.525.651,0,1.198.357,1.198,1.177Z" fill="#fff" />
+        <path d="M79.72,441.86c-1.092,0-1.751-.77-1.751-1.884s.659-1.884,1.751-1.884c1.086,0,1.744.771,1.744,1.884s-.658,1.884-1.744,1.884ZM79.72,441.37c.799,0,1.184-.63,1.184-1.394s-.385-1.394-1.184-1.394c-.805,0-1.19.63-1.19,1.394s.386,1.394,1.19,1.394Z" fill="#fff" />
+        <path d="M85.188,440.782c0,.651-.595,1.078-1.407,1.078-1.093,0-1.597-.518-1.632-1.288h.561c.034.399.175.798,1.071.798.609,0,.848-.314.848-.553,0-.519-.47-.547-.98-.673-.547-.133-1.359-.196-1.359-1.036,0-.561.497-1.016,1.338-1.016.89,0,1.366.504,1.422,1.12h-.561c-.056-.272-.188-.63-.861-.63-.504,0-.777.203-.777.483,0,.42.483.455.98.574.638.154,1.358.259,1.358,1.142Z" fill="#fff" />
+        <path d="M88.61,440.509l-.441,1.254h-.651l1.849-5.008h.7l1.842,5.008h-.65l-.441-1.254h-2.206ZM90.613,439.948l-.89-2.612h-.014l-.89,2.612h1.793Z" fill="#fff" />
+        <path d="M92.711,437.161c0-.217.196-.336.351-.336.161,0,.351.119.351.336s-.189.336-.351.336c-.154,0-.351-.119-.351-.336ZM93.342,438.19v3.572h-.561v-3.572h.561Z" fill="#fff" />
+        <path d="M96.423,438.113v.561h-.014c-.778-.126-1.317.421-1.317,1.184v1.905h-.561v-3.572h.561v.708h.015c.188-.47.476-.806.987-.806.133,0,.23.007.329.021Z" fill="#fff" />
+        <path d="M99.705,440.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM97.499,439.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M104.031,440.782c0,.651-.595,1.078-1.407,1.078-1.093,0-1.597-.518-1.632-1.288h.561c.034.399.175.798,1.071.798.609,0,.848-.314.848-.553,0-.519-.47-.547-.98-.673-.547-.133-1.359-.196-1.359-1.036,0-.561.497-1.016,1.338-1.016.89,0,1.366.504,1.422,1.12h-.561c-.056-.272-.188-.63-.861-.63-.504,0-.777.203-.777.483,0,.42.483.455.98.574.638.154,1.358.259,1.358,1.142Z" fill="#fff" />
+        <path d="M54.584,444.755h.861l1.568,4.16h.014l1.569-4.16h.861v5.008h-.63v-4.118h-.015l-1.513,4.118h-.561l-1.513-4.118h-.014v4.118h-.63v-5.008Z" fill="#fff" />
+        <path d="M60.659,445.161c0-.217.196-.336.351-.336.161,0,.351.119.351.336s-.189.336-.351.336c-.154,0-.351-.119-.351-.336ZM61.29,446.19v3.572h-.561v-3.572h.561Z" fill="#fff" />
+        <path d="M62.991,444.755v5.008h-.561v-5.008h.561Z" fill="#fff" />
+        <path d="M65.588,446.583c-.679,0-.903.196-.938.715h-.561c.035-.687.463-1.205,1.499-1.205.68,0,1.289.266,1.289,1.128v1.736c0,.28.049.435.406.393v.392c-.147.05-.225.057-.329.057-.337,0-.54-.091-.638-.483h-.014c-.225.336-.624.546-1.212.546-.722,0-1.177-.413-1.177-1.016,0-.812.603-1.022,1.527-1.197.602-.112.875-.189.875-.546,0-.28-.154-.519-.729-.519ZM66.316,448.383v-.595c-.105.104-.448.203-.826.279-.693.147-1.016.322-1.016.75,0,.35.21.553.672.553.666,0,1.17-.301,1.17-.987Z" fill="#fff" />
+        <path d="M71,447.27v2.493h-.561v-2.354c0-.462-.217-.826-.777-.826-.63,0-1.051.399-1.051.952v2.228h-.561v-3.572h.561v.428h.015c.188-.252.566-.525,1.176-.525.651,0,1.198.357,1.198,1.177Z" fill="#fff" />
+        <path d="M76.81,447.052v.015c.525.091.974.49.974,1.239,0,.925-.658,1.457-1.695,1.457h-2.156v-5.008h2.017c1.022,0,1.639.483,1.639,1.261,0,.616-.364.896-.777,1.036ZM76.046,446.849c.715,0,.911-.308.911-.763s-.267-.771-.841-.771h-1.555v1.533h1.484ZM74.562,449.202h1.59c.806,0,1.002-.427,1.002-.896,0-.539-.337-.896-.862-.896h-1.729v1.793Z" fill="#fff" />
+        <path d="M80.162,446.583c-.679,0-.903.196-.938.715h-.561c.035-.687.463-1.205,1.499-1.205.68,0,1.289.266,1.289,1.128v1.736c0,.28.049.435.406.393v.392c-.147.05-.225.057-.329.057-.337,0-.54-.091-.638-.483h-.014c-.225.336-.624.546-1.212.546-.722,0-1.177-.413-1.177-1.016,0-.812.603-1.022,1.527-1.197.602-.112.875-.189.875-.546,0-.28-.154-.519-.729-.519ZM80.891,448.383v-.595c-.105.104-.448.203-.826.279-.693.147-1.016.322-1.016.75,0,.35.21.553.672.553.666,0,1.17-.301,1.17-.987Z" fill="#fff" />
+        <path d="M85.434,448.782c0,.651-.595,1.078-1.407,1.078-1.093,0-1.597-.518-1.632-1.288h.561c.034.399.175.798,1.071.798.609,0,.848-.314.848-.553,0-.519-.47-.547-.98-.673-.547-.133-1.359-.196-1.359-1.036,0-.561.497-1.016,1.338-1.016.89,0,1.366.504,1.422,1.12h-.561c-.056-.272-.188-.63-.861-.63-.504,0-.777.203-.777.483,0,.42.483.455.98.574.638.154,1.358.259,1.358,1.142Z" fill="#fff" />
+        <path d="M88.961,448.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM86.755,447.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M93.582,444.755v5.008h-.561v-.441h-.014c-.211.273-.547.539-1.121.539-.896,0-1.611-.707-1.611-1.884s.715-1.884,1.611-1.884c.574,0,.91.252,1.121.561h.014v-1.898h.561ZM93.021,447.977c0-.84-.413-1.394-1.079-1.394-.735,0-1.106.693-1.106,1.394s.371,1.394,1.106,1.394c.666,0,1.079-.553,1.079-1.394Z" fill="#fff" />
+      </g>
+      </svg>
+<svg class="lg zC" style="left:38.3892cqw;width:21.6495cqw;top:calc(50cqh + 3.5021cqw);" viewBox="149.72 435.66 84.43 15.20"><g>
+        <path d="M154.696,440.453c0,.729-.539,1.407-1.807,1.407-1.184,0-2.101-.63-2.171-1.778h.63c.07.687.49,1.219,1.541,1.219.868,0,1.177-.399,1.177-.848,0-.687-.371-.812-1.492-1.071-.749-.176-1.646-.435-1.646-1.408,0-.791.609-1.316,1.716-1.316,1.064,0,1.807.546,1.891,1.583h-.63c-.091-.673-.47-1.023-1.261-1.023-.707,0-1.086.273-1.086.687,0,.666.54.757,1.275.938,1.127.28,1.862.47,1.862,1.611Z" fill="#fff" />
+        <path d="M158.245,440.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM156.039,439.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M160.547,438.681v2.15c0,.406.225.477.701.441v.49c-.126.028-.273.042-.421.042-.476,0-.84-.189-.84-.917v-2.207h-.525v-.49h.525v-1.19h.56v1.19h.701v.49h-.701Z" fill="#fff" />
+        <path d="M164.02,436.755h1.813c1.38,0,2.228.896,2.228,2.508s-.848,2.5-2.228,2.5h-1.813v-5.008ZM164.649,441.202h1.184c1.274,0,1.597-.959,1.597-1.939s-.322-1.947-1.597-1.947h-1.184v3.887Z" fill="#fff" />
+        <path d="M171.636,440.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM169.43,439.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M175.962,440.782c0,.651-.595,1.078-1.407,1.078-1.093,0-1.597-.518-1.632-1.288h.561c.034.399.175.798,1.071.798.609,0,.848-.314.848-.553,0-.519-.47-.547-.98-.673-.547-.133-1.359-.196-1.359-1.036,0-.561.497-1.016,1.338-1.016.89,0,1.366.504,1.422,1.12h-.561c-.056-.272-.188-.63-.861-.63-.504,0-.777.203-.777.483,0,.42.483.455.98.574.638.154,1.358.259,1.358,1.142Z" fill="#fff" />
+        <path d="M176.855,437.161c0-.217.196-.336.351-.336.161,0,.351.119.351.336s-.189.336-.351.336c-.154,0-.351-.119-.351-.336ZM177.486,438.19v3.572h-.561v-3.572h.561Z" fill="#fff" />
+        <path d="M181.779,438.19v3.376c0,.953-.603,1.436-1.583,1.436s-1.562-.518-1.618-1.127h.561c.07.364.364.637,1.029.637s1.051-.287,1.051-.952v-.539h-.014c-.211.308-.547.561-1.135.561-.883,0-1.598-.567-1.598-1.744s.715-1.744,1.598-1.744c.588,0,.924.266,1.135.539h.014v-.441h.561ZM181.219,439.837c0-.841-.413-1.254-1.079-1.254-.735,0-1.106.554-1.106,1.254s.371,1.254,1.106,1.254c.666,0,1.079-.414,1.079-1.254Z" fill="#fff" />
+        <path d="M185.846,439.27v2.493h-.561v-2.354c0-.462-.217-.826-.777-.826-.63,0-1.051.399-1.051.952v2.228h-.561v-3.572h.561v.428h.015c.188-.252.566-.525,1.176-.525.651,0,1.198.357,1.198,1.177Z" fill="#fff" />
+        <path d="M188.616,441.427c0-.231.168-.386.385-.386s.385.154.385.386c0,.238-.168.385-.385.385s-.385-.146-.385-.385Z" fill="#fff" />
+        <path d="M192.957,440.509l-.441,1.254h-.651l1.849-5.008h.7l1.842,5.008h-.651l-.44-1.254h-2.206ZM194.96,439.948l-.89-2.612h-.014l-.89,2.612h1.793Z" fill="#fff" />
+        <path d="M198.949,438.113v.561h-.014c-.778-.126-1.317.421-1.317,1.184v1.905h-.561v-3.572h.561v.708h.015c.188-.47.476-.806.987-.806.133,0,.23.007.329.021Z" fill="#fff" />
+        <path d="M200.663,438.681v2.15c0,.406.225.477.701.441v.49c-.126.028-.273.042-.421.042-.476,0-.84-.189-.84-.917v-2.207h-.525v-.49h.525v-1.19h.56v1.19h.701v.49h-.701Z" fill="#fff" />
+        <path d="M204.136,436.755h1.813c1.38,0,2.228.896,2.228,2.508s-.848,2.5-2.228,2.5h-1.813v-5.008ZM204.766,441.202h1.184c1.274,0,1.597-.959,1.597-1.939s-.322-1.947-1.597-1.947h-1.184v3.887Z" fill="#fff" />
+        <path d="M209.188,437.161c0-.217.196-.336.351-.336.161,0,.351.119.351.336s-.189.336-.351.336c-.154,0-.351-.119-.351-.336ZM209.819,438.19v3.572h-.561v-3.572h.561Z" fill="#fff" />
+        <path d="M212.9,438.113v.561h-.014c-.778-.126-1.317.421-1.317,1.184v1.905h-.561v-3.572h.561v.708h.015c.188-.47.476-.806.987-.806.133,0,.23.007.329.021Z" fill="#fff" />
+        <path d="M216.183,440.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM213.977,439.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M219.228,438.583c-.848,0-1.17.722-1.17,1.394s.322,1.394,1.17,1.394c.722,0,.98-.497,1.009-.924h.56c-.049.812-.686,1.414-1.568,1.414-1.044,0-1.73-.763-1.73-1.884s.687-1.884,1.73-1.884c.883,0,1.484.588,1.568,1.387h-.56c-.028-.393-.295-.896-1.009-.896Z" fill="#fff" />
+        <path d="M222.538,438.681v2.15c0,.406.225.477.701.441v.49c-.126.028-.273.042-.421.042-.476,0-.84-.189-.84-.917v-2.207h-.525v-.49h.525v-1.19h.56v1.19h.701v.49h-.701Z" fill="#fff" />
+        <path d="M224.175,437.161c0-.217.196-.336.351-.336.161,0,.351.119.351.336s-.189.336-.351.336c-.154,0-.351-.119-.351-.336ZM224.806,438.19v3.572h-.561v-3.572h.561Z" fill="#fff" />
+        <path d="M227.543,441.86c-1.092,0-1.751-.77-1.751-1.884s.659-1.884,1.751-1.884c1.086,0,1.744.771,1.744,1.884s-.658,1.884-1.744,1.884ZM227.543,441.37c.799,0,1.184-.63,1.184-1.394s-.385-1.394-1.184-1.394c-.805,0-1.19.63-1.19,1.394s.386,1.394,1.19,1.394Z" fill="#fff" />
+        <path d="M233.151,439.27v2.493h-.561v-2.354c0-.462-.217-.826-.777-.826-.63,0-1.051.399-1.051.952v2.228h-.561v-3.572h.561v.428h.015c.188-.252.566-.525,1.176-.525.651,0,1.198.357,1.198,1.177Z" fill="#fff" />
+        <path d="M161.958,445.217c-1.19,0-1.688,1.03-1.688,2.038,0,1.016.498,2.046,1.688,2.046,1.051,0,1.457-.715,1.499-1.345h.63c-.112,1.106-.896,1.904-2.129,1.904-1.373,0-2.318-1.092-2.318-2.605,0-1.505.945-2.598,2.318-2.598,1.226,0,2.01.798,2.129,1.751h-.63c-.092-.477-.456-1.191-1.499-1.191Z" fill="#fff" />
+        <path d="M166.949,446.113v.561h-.014c-.778-.126-1.317.421-1.317,1.184v1.905h-.561v-3.572h.561v.708h.015c.188-.47.476-.806.987-.806.133,0,.23.007.329.021Z" fill="#fff" />
+        <path d="M170.231,448.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM168.025,447.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M173.206,446.583c-.679,0-.903.196-.938.715h-.561c.035-.687.463-1.205,1.499-1.205.68,0,1.289.266,1.289,1.128v1.736c0,.28.049.435.406.393v.392c-.147.05-.225.057-.329.057-.337,0-.54-.091-.638-.483h-.014c-.225.336-.624.546-1.212.546-.722,0-1.177-.413-1.177-1.016,0-.812.603-1.022,1.527-1.197.602-.112.875-.189.875-.546,0-.28-.154-.519-.729-.519ZM173.935,448.383v-.595c-.104.104-.448.203-.826.279-.693.147-1.016.322-1.016.75,0,.35.21.553.672.553.666,0,1.17-.301,1.17-.987Z" fill="#fff" />
+        <path d="M176.453,446.681v2.15c0,.406.225.477.701.441v.49c-.126.028-.273.042-.421.042-.476,0-.84-.189-.84-.917v-2.207h-.525v-.49h.525v-1.19h.56v1.19h.701v.49h-.701Z" fill="#fff" />
+        <path d="M178.091,445.161c0-.217.196-.336.351-.336.161,0,.351.119.351.336s-.189.336-.351.336c-.154,0-.351-.119-.351-.336ZM178.722,446.19v3.572h-.561v-3.572h.561Z" fill="#fff" />
+        <path d="M180.149,446.19l.988,3.012h.007l.987-3.012h.609l-1.282,3.572h-.637l-1.282-3.572h.609Z" fill="#fff" />
+        <path d="M185.981,448.663h.561c-.182.665-.693,1.197-1.583,1.197-1.085,0-1.744-.763-1.744-1.884,0-1.19.673-1.884,1.717-1.884,1.12,0,1.666.764,1.666,2.031h-2.822c0,.645.386,1.246,1.163,1.246.714,0,.98-.462,1.043-.707ZM183.775,447.634h2.263c0-.574-.435-1.051-1.106-1.051s-1.156.477-1.156,1.051Z" fill="#fff" />
+        <path d="M189.334,444.755h1.988c.918,0,1.625.406,1.625,1.457s-.707,1.457-1.625,1.457h-1.358v2.094h-.63v-5.008ZM189.964,447.108h1.429c.623,0,.925-.287.925-.896s-.302-.896-.925-.896h-1.429v1.793Z" fill="#fff" />
+        <path d="M195.712,446.113v.561h-.014c-.778-.126-1.317.421-1.317,1.184v1.905h-.561v-3.572h.561v.708h.015c.188-.47.476-.806.987-.806.133,0,.23.007.329.021Z" fill="#fff" />
+        <path d="M197.979,449.86c-1.092,0-1.751-.77-1.751-1.884s.659-1.884,1.751-1.884c1.086,0,1.744.771,1.744,1.884s-.658,1.884-1.744,1.884ZM197.979,449.37c.799,0,1.184-.63,1.184-1.394s-.385-1.394-1.184-1.394c-.805,0-1.19.63-1.19,1.394s.386,1.394,1.19,1.394Z" fill="#fff" />
+        <path d="M203.741,444.755v5.008h-.561v-.441h-.015c-.21.273-.546.539-1.12.539-.896,0-1.611-.707-1.611-1.884s.715-1.884,1.611-1.884c.574,0,.91.252,1.12.561h.015v-1.898h.561ZM203.181,447.977c0-.84-.413-1.394-1.079-1.394-.735,0-1.106.693-1.106,1.394s.371,1.394,1.106,1.394c.666,0,1.079-.553,1.079-1.394Z" fill="#fff" />
+        <path d="M207.786,446.19v3.572h-.56v-.427h-.015c-.188.252-.567.524-1.177.524-.651,0-1.197-.356-1.197-1.176v-2.494h.561v2.354c0,.462.217.826.777.826.63,0,1.051-.398,1.051-.952v-2.228h.56Z" fill="#fff" />
+        <path d="M210.433,446.583c-.848,0-1.17.722-1.17,1.394s.322,1.394,1.17,1.394c.722,0,.98-.497,1.009-.924h.56c-.049.812-.686,1.414-1.568,1.414-1.044,0-1.73-.763-1.73-1.884s.687-1.884,1.73-1.884c.883,0,1.484.588,1.568,1.387h-.56c-.028-.393-.295-.896-1.009-.896Z" fill="#fff" />
+        <path d="M213.742,446.681v2.15c0,.406.225.477.701.441v.49c-.126.028-.273.042-.421.042-.476,0-.84-.189-.84-.917v-2.207h-.525v-.49h.525v-1.19h.56v1.19h.701v.49h-.701Z" fill="#fff" />
+        <path d="M215.38,445.161c0-.217.196-.336.351-.336.161,0,.351.119.351.336s-.189.336-.351.336c-.154,0-.351-.119-.351-.336ZM216.011,446.19v3.572h-.561v-3.572h.561Z" fill="#fff" />
+        <path d="M218.748,449.86c-1.092,0-1.751-.77-1.751-1.884s.659-1.884,1.751-1.884c1.086,0,1.744.771,1.744,1.884s-.658,1.884-1.744,1.884ZM218.748,449.37c.799,0,1.184-.63,1.184-1.394s-.385-1.394-1.184-1.394c-.805,0-1.19.63-1.19,1.394s.386,1.394,1.19,1.394Z" fill="#fff" />
+        <path d="M224.355,447.27v2.493h-.561v-2.354c0-.462-.217-.826-.777-.826-.63,0-1.051.399-1.051.952v2.228h-.561v-3.572h.561v.428h.015c.188-.252.566-.525,1.176-.525.651,0,1.198.357,1.198,1.177Z" fill="#fff" />
+      </g>
+      </svg>
+<div class="lk zC zC3" style="left:70.3038cqw;width:18.3923cqw;top:calc(50cqh + 3.5449cqw);aspect-ratio:71.73000000000002/16.177000000000305"><div class="ctx">+54 387 524 1879<br>milly@gomezpaz.com</div><a href="tel:+543875241879" style="position:absolute;left:0;right:0;top:0%;height:50%"></a><a href="mailto:milly@gomezpaz.com,martifreytes@gmail.com" style="position:absolute;left:0;right:0;top:50%;height:50%"></a></div>
+<svg class="lg hideT" style="left:45.8303cqw;width:6.8226cqw;bottom:4.8631cqw;" viewBox="178.74 816.06 26.61 8.97"><g>
+        <path d="M181.434,817.061c-.544.968-.976,2.023-.976,3.503,0,1.446.432,2.502.976,3.47h-.56c-.624-.808-1.136-2.023-1.136-3.47,0-1.495.512-2.695,1.136-3.503h.56Z" fill="#fff" />
+        <path d="M182.491,819.508c0-1.144.623-2.047,1.99-2.047.943,0,1.759.6,1.759,1.655,0,1.895-2.694,2.007-3.038,3.326v.016h2.959v.64h-3.83c0-.999.632-1.783,1.646-2.375,1.032-.6,1.544-.791,1.544-1.599,0-.464-.208-1.023-1.056-1.023-.968,0-1.256.647-1.256,1.407h-.719Z" fill="#fff" />
+        <path d="M187.362,820.339c0-1.566.616-2.878,2.127-2.878s2.127,1.312,2.127,2.878-.615,2.871-2.127,2.871-2.127-1.304-2.127-2.871ZM190.896,820.339c0-1.175-.352-2.238-1.407-2.238s-1.407,1.063-1.407,2.238.352,2.231,1.407,2.231,1.407-1.056,1.407-2.231Z" fill="#fff" />
+        <path d="M192.819,819.508c0-1.144.623-2.047,1.99-2.047.943,0,1.759.6,1.759,1.655,0,1.895-2.694,2.007-3.038,3.326v.016h2.959v.64h-3.83c0-.999.632-1.783,1.646-2.375,1.032-.6,1.544-.791,1.544-1.599,0-.464-.208-1.023-1.056-1.023-.968,0-1.256.647-1.256,1.407h-.719Z" fill="#fff" />
+        <path d="M199.89,819.491c1.056,0,1.791.728,1.791,1.823,0,1.023-.72,1.896-1.919,1.896-1.512,0-2.071-1.12-2.071-2.879,0-1.839.72-2.87,2.095-2.87,1.032,0,1.672.703,1.751,1.511h-.719c-.072-.535-.408-.871-1.032-.871-1.143,0-1.359,1.087-1.375,2.198v.017c.271-.52.832-.824,1.479-.824ZM200.961,821.362c0-.791-.479-1.231-1.136-1.231-.799,0-1.335.504-1.335,1.248,0,.711.472,1.191,1.271,1.191.76,0,1.199-.472,1.199-1.208Z" fill="#fff" />
+        <path d="M204.346,820.563c0,1.446-.512,2.662-1.136,3.47h-.56c.544-.968.976-2.023.976-3.47,0-1.479-.432-2.535-.976-3.503h.56c.624.808,1.136,2.008,1.136,3.503Z" fill="#fff" />
+      </g>
+    </svg>
+</div>
+</div>
+  <div class="g gA1" id="gA1"></div>
+  <div class="g gA2" id="gA2"></div>
+  <div class="g gA3 hd" id="gA3"></div>
+  <div class="g gB" id="gB"></div>
+  <div class="g gC" id="gC"></div>
+</div>
+
+<div class="phones" id="phones"></div>
+
+<section class="ctp" id="contactPage" aria-label="About" aria-hidden="true">
+<div class="bar"><a href="#" data-close>Creative Lab</a><a href="#" data-close>Close</a></div>
+<div class="in ab">
+<div class="ab-team"><figure><figcaption><a class="nl" href="https://www.instagram.com/millygomezpaz/" target="_blank" rel="noopener">Milagros Gómez Paz</a></figcaption><img src="img/team/milagros.jpg" alt="Milagros Gómez Paz"></figure><figure><figcaption><a class="nl" href="https://www.instagram.com/martinafreytes/" target="_blank" rel="noopener">Martina Freytes</a></figcaption><img src="img/team/martina.jpg" alt="Martina Freytes"></figure></div>
+<div class="ab-c ab-ct"><div><a href="tel:+5491124764123">+54 9 11 2476 4123</a><br><a href="mailto:milly@gomezpaz.com,martifreytes@gmail.com">milly@gomezpaz.com</a><br><a href="https://www.instagram.com/millygomezpaz/" target="_blank" rel="noopener">@millygomezpaz</a></div><div><a href="tel:+543875241879">+54 387 524 1879</a><br><a href="mailto:milly@gomezpaz.com,martifreytes@gmail.com">martifreytes@gmail.com</a><br><a href="https://www.instagram.com/martinafreytes/" target="_blank" rel="noopener">@martinafreytes</a></div></div>
+<div class="ab-c">Based between:<br>Buenos Aires&nbsp;&nbsp;·&nbsp;&nbsp;Milano</div>
+<div class="ab-bio"><p>Milagros and Martina are independent designers working together as a creative lab for set design, concept development, creative construction and production.</p><p>They develop each project from concept to execution, where creativity, construction and materiality come together into a single narrative. Dinners, launches, windows, installations and private celebrations become temporary spaces built piece by piece — objects found, materials shaped, light and proportion considered — until each space holds its own story.</p></div>
+<div class="ab-cols">
+<div><span>Clients</span>Loro Piana<br>Ferragamo<br>Brioni<br>Hermès<br>Chanel<br>Gucci<br>Louis Vuitton<br>Carolina Herrera<br>Roberto Cavalli<br>Missoni<br>Molteni&amp;C<br>Door<br>Mercado Libre<br>Bizarrap<br>Marienco</div>
+<div><span>Practice</span>Creative Direction<br>Concept Development<br>Set Design<br>Creative Production<br>Experience Design<br>Event Design<br>Spatial Design<br>Installation<br>Window Design<br>Exhibition Design<br>Table Setting<br>Prop Sourcing<br>Brand Activations<br>Creative Strategy</div>
+</div>
+<div class="ab-end">If you want to know more about us,<br>please call us.<div class="ab-sig">xx Mili &amp; Mar</div></div>
+</div>
+</section>
+<div class="cur" id="cur" aria-hidden="true"></div>
+
+
+<div class="tbar" aria-label="Menu"><a href="#" data-top>CREATIVE LAB</a><a href="#contact" style="margin-right:-.14em">ABOUT US</a></div>
+<section class="sw2" id="proyectos">
+<div class="sel">SELECTED WORK</div>
+<div class="fg"><figure style="--w:18.46;--h:23.33"><div class="fx">(01)</div><div class="br">Ferragamo</div><div class="bx"><img src="img/sw3/ferragamo.jpg" alt="Ferragamo — FW25 After-Show Dinner" loading="lazy"></div><figcaption><span class="ev">FW25 After-Show Dinner</span><span class="pl">Milan 2025</span></figcaption></figure><figure style="--w:21.49;--h:21.49"><div class="fx">(02)</div><div class="br">Brioni</div><div class="bx"><img src="img/sw3/brioni.jpg" alt="Brioni — 80th Anniversary Dinner" loading="lazy"></div><figcaption><span class="ev">80th Anniversary Dinner</span><span class="pl">Rome 2025</span></figcaption></figure><figure style="--w:19.18;--h:24.38"><div class="fx">(03)</div><div class="br">Hermès</div><div class="bx"><img src="img/sw3/herms.jpg" alt="Hermès — Window Display" loading="lazy"></div><figcaption><span class="ev">Window Display</span><span class="pl">Buenos Aires 2023</span></figcaption></figure><figure style="--w:24.38;--h:16.67"><div class="fx">(04)</div><div class="br">Loro Piana</div><div class="bx"><img src="img/sw3/loropiana.jpg" alt="Loro Piana — THE ICE Salastrains Dinner" loading="lazy"></div><figcaption><span class="ev">THE ICE Salastrains Dinner</span><span class="pl">St. Moritz 2026</span></figcaption></figure><figure style="--w:21.50;--h:21.50"><div class="fx">(05)</div><div class="br">Molteni&amp;C</div><div class="bx"><img src="img/sw3/moltenic.jpg" alt="Molteni&amp;C — Giardino Lunare" loading="lazy"></div><figcaption><span class="ev">Giardino Lunare</span><span class="pl">Milan Design Week 2026</span></figcaption></figure><figure style="--w:24.60;--h:15.38"><div class="fx">(06)</div><div class="br">Bizarrap</div><div class="bx"><img src="img/sw3/bizarrap.jpg" alt="Bizarrap — Recording Studio" loading="lazy"></div><figcaption><span class="ev">Recording Studio</span><span class="pl">Buenos Aires 2025</span></figcaption></figure><figure style="--w:20.40;--h:20.40"><div class="fx">(07)</div><div class="br">Missoni</div><div class="bx"><img src="img/sw3/missoni.jpg" alt="Missoni — Pop-up Proposal, Mexico" loading="lazy"></div><figcaption><span class="ev">Pop-up Proposal, Mexico</span><span class="pl">Milan 2025</span></figcaption></figure><figure style="--w:19.52;--h:24.80"><div class="fx">(08)</div><div class="br">Mercado Libre</div><div class="bx"><img src="img/sw3/mercadolibre.jpg" alt="Mercado Libre — Meli Moda SS26" loading="lazy"></div><figcaption><span class="ev">Meli Moda SS26</span><span class="pl">Buenos Aires 2026</span></figcaption></figure><figure style="--w:24.59;--h:15.37"><div class="fx">(09)</div><div class="br">Marienco</div><div class="bx"><img src="img/sw3/marienco.jpg" alt="Marienco — Private Event" loading="lazy"></div><figcaption><span class="ev">Private Event</span><span class="pl">Milan 2025</span></figcaption></figure><figure style="--w:20.40;--h:20.40"><div class="fx">(10)</div><div class="br">TikTok × Disney+</div><div class="bx"><img src="img/sw3/tiktokdisney.jpg" alt="TikTok × Disney+ — Christmas Party" loading="lazy"></div><figcaption><span class="ev">Christmas Party</span><span class="pl">Colombia 2026</span></figcaption></figure><figure style="--w:19.23;--h:19.23"><div class="fx">(11)</div><div class="br">Carolina Herrera</div><div class="bx"><img src="img/sw3/carolinaherrera.jpg" alt="Carolina Herrera — Milan Design Week" loading="lazy"></div><figcaption><span class="ev">Milan Design Week</span><span class="pl">Milan 2026</span></figcaption></figure><figure style="--w:17.48;--h:23.97"><div class="fx">(12)</div><div class="br">Chanel</div><div class="bx"><img src="img/sw3/chanel.jpg" alt="Chanel — Hydra Beauty Laboratory" loading="lazy"></div><figcaption><span class="ev">Hydra Beauty Laboratory</span><span class="pl">Milan 2025</span></figcaption></figure></div>
+<div class="info"><div class="kick">INDEPENDENT DESIGNERS</div><div class="n">MILAGROS&nbsp;&nbsp;&nbsp;MARTINA</div><div class="n2"><a class="nl" href="https://www.instagram.com/millygomezpaz/" target="_blank" rel="noopener">M.&nbsp;GÓMEZ&nbsp;PAZ</a><br><a class="nl" href="https://www.instagram.com/martinafreytes/" target="_blank" rel="noopener">M.&nbsp;FREYTES</a></div>
+<div class="ig2"><div><a class="nl" href="https://www.instagram.com/millygomezpaz/" target="_blank" rel="noopener">M. Gómez Paz</a><br><a href="tel:+5491124764123">+54 9 11 2476 4123</a><br><a href="mailto:milly@gomezpaz.com,martifreytes@gmail.com">milly@gomezpaz.com</a><br><a href="https://www.instagram.com/millygomezpaz/" target="_blank" rel="noopener">@millygomezpaz</a></div><div><a class="nl" href="https://www.instagram.com/martinafreytes/" target="_blank" rel="noopener">M. Freytes</a><br><a href="tel:+543875241879">+54 387 524 1879</a><br><a href="mailto:milly@gomezpaz.com,martifreytes@gmail.com">martifreytes@gmail.com</a><br><a href="https://www.instagram.com/martinafreytes/" target="_blank" rel="noopener">@martinafreytes</a></div></div></div>
+</section>
+<script>
+try{history.scrollRestoration='manual'}catch(e){}scrollTo(0,0);addEventListener('pageshow',()=>scrollTo(0,0));
+const Q=new URLSearchParams(location.search);
+if(Q.has('phone')&&!Q.get('frame')){document.addEventListener('DOMContentLoaded',()=>{});}if(Q.get('frame')){document.body.classList.add('frame');document.body.dataset.g=Q.get('frame');}
+const NH=57, NV=67, vp=document.getElementById('vp'), stage=document.getElementById('stage');
+const isV=()=>vp.clientHeight>vp.clientWidth;
+const MENU=[['Contact','#contact']];
+
+/* ---------- image sequence (horizontal set / vertical set) ---------- */
+let set=null, imgs=[], k=0, playing=true;
+function loadSet(v){
+  const want=v?'v':'h'; if(set===want) return; set=want; stage.innerHTML=''; imgs=[];
+  const n=v?NV:NH, dir=v?'img/mmv3/':'img/mmh/';
+  const skip=v?[26,20,27,30,10]:[23,17,22,26,8,3,36,39,42,53],extra=v?{10:71,20:68,27:72,36:70,46:69}:{8:61,17:58,22:62},seq=[];for(let i=1;i<=n;i++){if(!skip.includes(i))seq.push(i);if(extra[i])seq.push(extra[i])}if(v){seq.length=0;for(let i=1;i<=62;i++)seq.push(i)}for(const i of seq){const im=new Image();im.alt='';im.draggable=false;im.addEventListener('load',()=>{try{const c=document.createElement('canvas');c.width=24;c.height=48;const x=c.getContext('2d');x.drawImage(im,0,0,24,48);const d=x.getImageData(0,0,24,48).data;let t=0;for(let j=0;j<d.length;j+=4)t+=.299*d[j]+.587*d[j+1]+.114*d[j+2];if(t/(d.length/4)>128)im.classList.add('lt')}catch(e){}});im.src=dir+String(i).padStart(2,'0')+'.jpg';stage.appendChild(im);imgs.push(im)}
+  k=0; show(0); if(imgs[0]) imgs[0].addEventListener('load',()=>{if(!stage.querySelector('img.on'))show(0)});
+}
+const show=n=>{if(!imgs[n]||!(imgs[n].complete&&imgs[n].naturalWidth))return;imgs.forEach((im,j)=>im.classList.toggle('on',j===n))};
+const ready=im=>im.complete&&im.naturalWidth>0;
+(function tick(){if(playing&&imgs.length){for(let s=1;s<=imgs.length;s++){const j=(k+s)%imgs.length;if(ready(imgs[j])){k=j;show(k);break}}}setTimeout(tick,250)})();
+const hold=on=>e=>{if(e.target.closest&&e.target.closest('a'))return;playing=!on};
+vp.addEventListener('touchstart',hold(true),{passive:true});['touchend','touchcancel'].forEach(t=>vp.addEventListener(t,hold(false)));
+vp.addEventListener('mousedown',hold(true));['mouseup','mouseleave'].forEach(t=>vp.addEventListener(t,hold(false)));
+vp.addEventListener('contextmenu',e=>e.preventDefault());
+
+/* ---------- label helper: x,y in % of the frame ---------- */
+function L(el,html,x,y,o={}){const e=document.createElement(o.href?'a':'div');if(o.href)e.href=o.href;
+  e.className='l '+(o.cls||'');e.innerHTML=html;e.style.left=x+'cqw';e.style.top=y+'cqh';
+  if(o.dx)e.style.left='calc('+x+'cqw + '+o.dx+')';if(o.dy)e.style.top='calc('+y+'cqh + '+o.dy+')';el.appendChild(e);return e}
+function D(el,x,y){const d=document.createElement('i');d.className='dot';d.style.left=x+'cqw';d.style.top=y+'cqh';el.appendChild(d)}
+function grid(el,cols,rows){for(const y of rows)for(const x of cols)D(el,x,y)}
+const range=(a,b,n)=>Array.from({length:n},(_,i)=>a+(b-a)*i/(n-1));
+
+function aH(A){const m=5.556,g=1.667,col=(100-2*m-11*g)/12, X=i=>m+i*(col+g);
+  L(A,'Portfolio',3.1,4.2);
+  const c=document.createElement('div');c.className='l col';c.style.right='3.1cqw';c.style.top='4.2cqh';
+  c.innerHTML=MENU.map(x=>`<a href="${x[1]}">${x[0]}</a>`).join('');A.appendChild(c);
+  L(A,'Milagros',X(4),41.6,{cls:'big nm'});L(A,'Gomez',X(6),41.6,{cls:'big nm'});
+  L(A,'Paz',X(7)+col,41.6,{cls:'big r nm'});
+  L(A,'( Art Direction &nbsp;&amp; Set Design )',X(4),45.2);L(A,'Selected<br>Work',X(7),45.2);
+  L(A,'Creative<br>Spaces',X(4),50.6,{cls:'ct'});L(A,'Production',X(5),50.6,{cls:'ct'});L(A,'Tables',X(6),50.6,{dy:'1.38em',cls:'ct'});
+  L(A,'Experiences<br>&amp; Art',X(7),50.6,{cls:'ct'});
+  L(A,'(2026)',50,96.8,{cls:'c',dy:'-1.4em'});}
+function aV(A){const E=7.2;
+  L(A,'Portfolio',E,3.2);
+  const c=document.createElement('div');c.className='l col';c.style.right=E+'cqw';c.style.top='3.2cqh';
+  c.innerHTML=MENU.map(x=>`<a href="${x[1]}">${x[0]}</a>`).join('');A.appendChild(c);
+  L(A,'Milagros',E,43,{cls:'big nm'});L(A,'Gomez',50,43,{cls:'big c nm'});L(A,'Paz',100-E,43,{cls:'big r nm'});
+  L(A,'( Art Direction &amp; Set Design )',E,46.6);L(A,'Selected<br>Work',100-E,46.6,{cls:'r'});
+  L(A,'Creative<br>Spaces',E,52.4,{cls:'ct'});L(A,'Production',37,52.4,{cls:'ct'});L(A,'Tables',62,52.4,{dy:'1.35em',cls:'ct'});
+  L(A,'Experiences<br>&amp; Art',100-E,52.4,{cls:'r ct'});
+  L(A,'(2026)',50,96,{cls:'c',dy:'-1.4em'});}
+/* A2 — dots between the three parts of the name (measured once fonts are in) */
+function nameDots(){gA2.querySelectorAll('.dot').forEach(d=>d.remove());const show=gA2.style.display;gA2.style.display='block';
+  const vr=vp.getBoundingClientRect(),n=[...gA2.querySelectorAll('.nm')].map(e=>e.getBoundingClientRect());
+  for(let i=0;i<2;i++){const x=(n[i].right+n[i+1].left)/2-vr.left,y=(n[i].top+n[i].bottom)/2-vr.top;
+    D(gA2,x/vr.width*100,y/vr.height*100);}
+  gA2.style.display=show;}
+
+/* ---------- HORIZONTAL (her 1440x900 artboards) ---------- */
+function buildH(){
+  [gA,gA1,gA2,gA3].forEach(aH);
+
+  const m=5.556,g=1.667,col=(100-2*m-11*g)/12, X=i=>m+i*(col+g);
+  // A1 — two dots framing the central block
+  D(gA1,X(4)-1.1,39.6);D(gA1,X(7)+col+1.1,57.6);
+  gA3.querySelector('.l').classList.add('pd');
+
+  // grid shared by B and C: 7 x 8 dots
+  const GX=range(101/14.4,1301/14.4,7), GY=range(70/9,810/9,8), off='.62cqw';
+  // B — grid
+  grid(gB,GX,GY);
+  L(gB,'Milagros Gomez Paz',GX[0],GY[0],{cls:'mid vc',dx:'.9cqw'});
+  L(gB,'( Art Direction &amp; Set Design )',GX[0],GY[0],{dx:'-.35cqw',dy:'.75cqw'});
+  MENU.forEach((x,i)=>L(gB,x[0],GX[4+i],GY[0],{cls:'c',href:x[1],dy:off}));
+  L(gB,'Portfolio',GX[0],GY[7],{dx:'-.17cqw',dy:off});L(gB,'2026',GX[1],GY[7],{dx:'-.17cqw',dy:off});
+  // C — mix
+  grid(gC,GX,GY);
+  MENU.forEach((x,i)=>L(gC,x[0],GX[4+i],GY[0],{cls:'c',href:x[1],dy:off}));
+  L(gC,'Milagros',GX[2],GY[3],{cls:'big',dx:'-.17cqw',dy:off});L(gC,'Gomez',GX[3],GY[3],{cls:'big c',dy:off});
+  L(gC,'Paz',GX[4],GY[3],{cls:'big r',dx:'.17cqw',dy:off});
+  L(gC,'( Art Direction &amp; Set Design )',GX[2],GY[3],{dx:'-.17cqw',dy:'2.35cqw'});
+  L(gC,'Selected<br>Work',GX[4],GY[3],{dx:'-5.4cqw',dy:'2.35cqw'});
+  L(gC,'&nbsp;&nbsp;&nbsp;Creative<br>Spaces',GX[2],GY[4],{dx:'-.17cqw',dy:'-.55cqw'});
+  L(gC,'<br>Production',GX[3],GY[4],{cls:'r',dx:'-.17cqw',dy:'-.55cqw'});
+  L(gC,'&nbsp;&nbsp;&nbsp;Tables',GX[3],GY[4],{dx:'-.17cqw',dy:'-.55cqw'});
+  L(gC,'Experiences&nbsp;&nbsp;&nbsp;<br>&amp; Art',GX[4],GY[4],{cls:'r',dx:'.17cqw',dy:'-.55cqw'});
+  L(gC,'2026',GX[0],GY[7],{dx:'-.17cqw',dy:off});
+}
+
+/* ---------- VERTICAL (390 x 844 phone) ---------- */
+function buildV(){
+  const E=7.2; [gA,gA1,gA2,gA3].forEach(aV);
+
+  D(gA1,E-2.4,41.6);D(gA1,100-E+2.4,58.4);
+  gA3.querySelector('.l').classList.add('pd');
+
+  // grid shared by B and C: 4 x 10 dots
+  const GX=range(E,100-E,4), GY=range(4.2,95.2,10), off='1.9cqw';
+  // B — grid
+  grid(gB,GX,GY);
+  L(gB,'Milagros Gomez Paz',GX[0],GY[0],{cls:'mid vc',dx:'2.6cqw'});
+  L(gB,'( Art Direction &amp; Set Design )',GX[0],GY[0],{dx:'-.5cqw',dy:'2.6cqw'});
+  const cb=document.createElement('div');cb.className='l col';cb.style.right='calc('+(100-GX[3])+'cqw - .5cqw)';cb.style.top='calc('+GY[0]+'cqh + 1.9cqw)';
+  cb.innerHTML=MENU.map(x=>`<a href="${x[1]}">${x[0]}</a>`).join('');gB.appendChild(cb);
+  L(gB,'Portfolio',GX[0],GY[9],{dx:'-.5cqw',dy:off});
+  L(gB,'2026',GX[3],GY[9],{cls:'r',dx:'.5cqw',dy:off});
+  // C — mix
+  grid(gC,GX,GY);
+  MENU.forEach((x,i)=>L(gC,x[0],GX[1+i],GY[0],{cls:i===2?'r':'c',href:x[1],dy:off,dx:i===2?'.5cqw':0}));
+  L(gC,'Milagros',GX[0],GY[4],{cls:'big',dx:'-.5cqw',dy:off});L(gC,'Gomez',50,GY[4],{cls:'big c',dy:off});
+  L(gC,'Paz',GX[3],GY[4],{cls:'big r',dx:'.5cqw',dy:off});
+  L(gC,'( Art Direction &amp; Set Design )',GX[0],GY[4],{dx:'-.5cqw',dy:'8.6cqw'});
+  L(gC,'Selected<br>Work',GX[3],GY[4],{cls:'r',dx:'.5cqw',dy:'8.6cqw'});
+  L(gC,'&nbsp;&nbsp;&nbsp;Creative Spaces',GX[0],GY[5],{dx:'-.5cqw',dy:'-1.6cqw'});
+  L(gC,'&nbsp;&nbsp;&nbsp;Production',GX[2],GY[5],{dx:'-.5cqw',dy:'-1.6cqw'});
+  L(gC,'&nbsp;&nbsp;&nbsp;Tables',GX[0],GY[6],{dx:'-.5cqw',dy:'-1.6cqw'});
+  L(gC,'&nbsp;&nbsp;&nbsp;Experiences &amp; Art',GX[2],GY[6],{dx:'-.5cqw',dy:'-1.6cqw'});
+  L(gC,'2026',GX[0],GY[9],{dx:'-.5cqw',dy:off});
+}
+
+const gD=document.getElementById('gD'),gA1=document.getElementById('gA1'),gA2=document.getElementById('gA2'),gA3=document.getElementById('gA3'),gA=document.getElementById('gA'),gB=document.getElementById('gB'),gC=document.getElementById('gC');
+let built=null;
+function layout(){const v=isV();loadSet(v);const want=v?'v':'h';if(built===want)return;built=want;
+  [gA,gA1,gA2,gA3,gB,gC].forEach(x=>x.innerHTML='');v?buildV():buildH();clearDots();nameDots();}
+/* hide any dot that would sit on top of a text */
+function clearDots(){[gB,gC].forEach(g=>{const show=g.style.display;g.style.display='block';
+  const ls=[...g.querySelectorAll('.l')].map(e=>e.getBoundingClientRect());
+  g.querySelectorAll('.dot').forEach(d=>{d.style.visibility='';const r=d.getBoundingClientRect(),cx=(r.left+r.right)/2,cy=(r.top+r.bottom)/2,p=7;
+    if(ls.some(b=>cx>b.left+p&&cx<b.right-p&&cy>b.top-2&&cy<b.bottom+2))d.style.visibility='hidden'});
+  g.style.display=show;})}
+document.fonts.ready.then(()=>{clearDots();nameDots()});
+new ResizeObserver(layout).observe(vp);layout();
+
+/* ---------- switch ---------- */
+document.querySelectorAll('#sw button').forEach(b=>b.addEventListener('click',e=>{e.stopPropagation();
+  if(b.dataset.g){document.body.dataset.g=b.dataset.g;}
+  if(b.dataset.o){const on=b.dataset.o==='v';document.body.classList.toggle('phone',on);
+    const ph=document.getElementById('phones');
+    if(on&&!ph.children.length)ph.innerHTML=[['a','A · centro'],['b','B · grilla'],['c','C · mezcla'],['d','D · nueva']].map(x=>`<div class="ph"><span>${x[1]}</span><iframe src="index.html?frame=${x[0]}"></iframe></div>`).join('');
+    playing=!on;}
+  const grp=b.dataset.g?'[data-g]':'[data-o]';
+  document.querySelectorAll('#sw button'+grp).forEach(x=>x.setAttribute('aria-pressed',x===b));}));
+
+if(Q.has('phone')&&!Q.get('frame')){document.body.classList.add('phone');
+  document.getElementById('phones').innerHTML='<div class="ph"><span>Teléfono</span><iframe src="index.html?frame=d"></iframe></div>';playing=false;}
+/* ---------- cursor ---------- */
+const cur=document.getElementById('cur');
+addEventListener('mousemove',e=>{cur.style.left=e.clientX+'px';cur.style.top=e.clientY+'px';cur.classList.toggle('hover',!!e.target.closest('a,button'))});
+</script>
+<script>
+/* ---------- contact page ---------- */
+(function(){const P=document.getElementById('contactPage'),R=document.documentElement;
+function open(){R.classList.add('ctOpen');P.setAttribute('aria-hidden','false');P.scrollTop=0;playing=false}
+function close(){R.classList.remove('ctOpen');P.setAttribute('aria-hidden','true');playing=true;
+  if(location.hash==='#contact')try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}}
+document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a');if(!a)return;
+  if(a.getAttribute('href')==='#contact'){e.preventDefault();open()}
+  else if(a.hasAttribute('data-close')){e.preventDefault();close()}});
+addEventListener('keydown',e=>{if(e.key==='Escape'&&R.classList.contains('ctOpen'))close()});
+if(location.hash)try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}
+})();
+
+/* ---------- scroll hint: the page peeks up to show there is more below ---------- */
+(function(){const R=document.documentElement;let stop=false,tm,np=0;const st=()=>{stop=true;clearTimeout(tm);R.classList.remove('peek')};
+['touchstart','wheel','keydown','mousedown'].forEach(e=>addEventListener(e,st,{passive:true,once:true}));
+addEventListener('scroll',()=>{if(scrollY>5)st()},{passive:true});
+function peek(){if(stop||scrollY>5)return;if(R.classList.contains('ctOpen')){tm=setTimeout(peek,2000);return}
+  R.classList.remove('peek');void R.offsetWidth;R.classList.add('peek');np++;if(np<2)tm=setTimeout(peek,30000)}
+tm=setTimeout(peek,4500);})();
+</script>
+
+<script>
+/* ---------- travelling Selected Work title ---------- */
+(function(){const dn=document.querySelector('.dn'),sel=document.querySelector('.sw2 .sel'),vp=document.getElementById('vp'),R=document.documentElement;
+if(!dn||!sel)return;const f=document.createElement('div');f.className='fsw';f.textContent='SELECTED WORK';document.body.appendChild(f);
+const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
+function upd(){const y=scrollY;if(R.classList.contains('ctOpen'))return;R.classList.toggle('scd',y>1);
+  const vh=vp.offsetHeight;
+  if(y<=1){R.classList.remove('trav');f.style.display='none';return}
+  // where the label sits at rest (document coords)
+  R.classList.add('trav');
+  const dr=dn.getBoundingClientRect(),sr=sel.getBoundingClientRect();
+  const fs=getComputedStyle(dn).fontSize;f.style.fontSize=fs;
+  const startY=vh-(vh-(dr.top+y))-0+0; // dn's document top (vp sits at top of page)
+  const endY=sr.top+y;
+  const p=Math.min(1,Math.max(0,y/(vh*.85)));
+  if(p>=1){R.classList.remove('trav');f.style.display='none';return}
+  const yy=startY+(endY-startY)*ease(p);
+  f.style.display='block';f.style.top=yy+'px';
+  f.classList.toggle('dark',(yy-y)+parseFloat(fs)/2>vh-y);
+}
+addEventListener('scroll',upd,{passive:true});addEventListener('resize',upd);upd();})();
+</script>
+<script>
+/* ---------- vista teléfono en la compu: tecla P (invisible para los visitantes) ---------- */
+(function(){if(new URLSearchParams(location.search).get('frame'))return;
+function tog(){const on=!document.body.classList.contains('phone');document.body.classList.toggle('phone',on);
+  const ph=document.getElementById('phones');
+  if(on&&!ph.children.length){const u=new URL(location.href);u.searchParams.set('frame','d');u.hash='';
+    ph.innerHTML='<div class="ph"><span>Teléfono · tocá P para salir</span><iframe src="'+u.href+'"></iframe></div>';}
+  playing=!on;scrollTo(0,0);}
+addEventListener('keydown',e=>{if((e.key==='p'||e.key==='P')&&!e.metaKey&&!e.ctrlKey&&!/input|textarea/i.test(e.target.tagName))tog()});
+})();
+</script>
+<script>
+/* ---------- proyectos: aparecen en cascada cuando el título ya está quieto ---------- */
+(function(){const F=[...document.querySelectorAll('.fg figure')];if(!F.length)return;
+if(matchMedia('(prefers-reduced-motion: reduce)').matches){F.forEach(f=>f.classList.add('in'));return}
+let go=false,next=0;const seen=new Set();
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){seen.add(e.target);io.unobserve(e.target)}});flush()},{rootMargin:'0px 0px -6% 0px'});
+F.forEach(f=>io.observe(f));
+function flush(){if(!go)return;const now=performance.now();let mx=-1;F.forEach((f,i)=>{if(seen.has(f))mx=i});F.forEach((f,i)=>{if(i<=mx&&!f.dataset.q){f.dataset.q=1;const t=Math.max(now,next);next=t+130;setTimeout(()=>f.classList.add('in'),t-now)}})}
+function check(){if(go)return;const vh=document.getElementById('vp').offsetHeight;if(scrollY>=vh*.85-2){go=true;next=performance.now()+180;flush()}}
+addEventListener('scroll',check,{passive:true});check();})();
+</script>
+<script>
+/* ---------- barra fija con CREATIVE LAB / ABOUT US al bajar ---------- */
+(function(){const R=document.documentElement,vp=document.getElementById('vp');
+function u(){R.classList.toggle('bar',scrollY>=vp.offsetHeight*.9)}
+addEventListener('scroll',u,{passive:true});addEventListener('resize',u);u();
+document.querySelector('.tbar [data-top]').addEventListener('click',e=>{e.preventDefault();scrollTo({top:0,behavior:'smooth'})});})();
+</script>
+</body>
+</html>
+
+</body></html>
