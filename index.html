@@ -411,8 +411,11 @@ body.frame .tbar,body.phone .tbar{}
  .dn{font-size:min(calc(2.1cqw + 3.5pt),15.5px)!important}
  .gD .ctx{font-size:min(1.72cqw,9px)}
 }
-/* 24 nov: en celular la portada siempre llena toda la pantalla */
-.vp{height:100vh;height:100dvh}
+/* 24 nov: en celular la foto de portada llega hasta abajo de todo (detrás de la barra de Safari); los textos quedan en la zona visible */
+.vp{height:100vh;height:100lvh}
+.gD .dV>*:not(.ctl){translate:0 calc(var(--xb,0px) / -2)}
+.dn{translate:0 calc(var(--xb,0px) * -1)}
+html:not(.scd) .sw2 .sel{visibility:hidden}
 </style>
 </head>
 <body data-g="d">
@@ -935,7 +938,8 @@ function u(){R.classList.toggle('bar',scrollY>=vp.offsetHeight*.9)}
 addEventListener('scroll',u,{passive:true});addEventListener('resize',u);u();
 document.querySelector('.tbar [data-top]').addEventListener('click',e=>{e.preventDefault();scrollTo({top:0,behavior:'smooth'})});})();
 </script>
-<script>/* portada a pantalla completa en navegadores de apps (WhatsApp, Instagram) */
-(function(){var v=document.getElementById('vp');function f(){var h=window.innerHeight;if(v&&v.getBoundingClientRect().height<h-1)v.style.height=h+'px'}f();setTimeout(f,300);setTimeout(f,1200);})();</script>
+<script>/* portada: compensa la barra flotante del navegador del celular */
+(function(){var v=document.getElementById('vp'),p=document.createElement('div');p.style.cssText='position:fixed;left:0;top:0;width:0;height:100svh;visibility:hidden;pointer-events:none';document.body.appendChild(p);
+function f(){var x=Math.max(0,Math.round(v.getBoundingClientRect().height-p.getBoundingClientRect().height));v.style.setProperty('--xb',x+'px')}f();setTimeout(f,400);})();</script>
 </body>
 </html>
